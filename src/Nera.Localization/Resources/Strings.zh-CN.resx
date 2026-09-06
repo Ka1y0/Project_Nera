@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <data name="Common.Home" xml:space="preserve"><value>首页</value></data>
+  <data name="Common.Settings" xml:space="preserve"><value>设置</value></data>
+  <data name="Common.Change" xml:space="preserve"><value>更改</value></data>
+  <data name="Common.Reset" xml:space="preserve"><value>重置</value></data>
+  <data name="Common.Default" xml:space="preserve"><value>默认</value></data>
+  <data name="Common.Natural" xml:space="preserve"><value>自然</value></data>
+  <data name="Common.Clear" xml:space="preserve"><value>清晰</value></data>
+  <data name="Common.Cinema" xml:space="preserve"><value>电影</value></data>
+  <data name="Common.Custom" xml:space="preserve"><value>自定义</value></data>
+  <data name="Common.Enabled" xml:space="preserve"><value>已开启</value></data>
+  <data name="Common.Disabled" xml:space="preserve"><value>已关闭</value></data>
+  <data name="Common.Checking" xml:space="preserve"><value>检测中</value></data>
+  <data name="Common.Detecting" xml:space="preserve"><value>正在检测</value></data>
+  <data name="Common.Unavailable" xml:space="preserve"><value>暂不可用</value></data>
+  <data name="Common.NotSet" xml:space="preserve"><value>未设置</value></data>
+  <data name="Common.Unknown" xml:space="preserve"><value>未知</value></data>
+  <data name="Common.NotVerified" xml:space="preserve"><value>未验证</value></data>
+  <data name="Common.NotConnected" xml:space="preserve"><value>未连接</value></data>
+  <data name="Common.Applied" xml:space="preserve"><value>更改已应用。</value></data>
+  <data name="Common.Cancel" xml:space="preserve"><value>取消</value></data>
+  <data name="Common.Back" xml:space="preserve"><value>返回</value></data>
+  <data name="Common.Save" xml:space="preserve"><value>保存</value></data>
+  <data name="Common.ClearBinding" xml:space="preserve"><value>清除</value></data>
+  <data name="Common.Edit" xml:space="preserve"><value>修改</value></data>
+  <data name="Common.Retry" xml:space="preserve"><value>重试</value></data>
+  <data name="Common.Close" xml:space="preserve"><value>关闭</value></data>
+  <data name="Common.Details" xml:space="preserve"><value>查看详情</value></data>
+  <data name="App.Navigation" xml:space="preserve"><value>Nera 导航</value></data>
+  <data name="App.StatusMessage" xml:space="preserve"><value>Nera 状态</value></data>
+  <data name="App.Tagline" xml:space="preserve"><value>整块显示器的 DLDR 视觉模式</value></data>
+  <data name="App.SettingsSubtitle" xml:space="preserve"><value>显示器、运行时与控制设置</value></data>
+  <data name="Display.Title" xml:space="preserve"><value>显示器</value></data>
+  <data name="Display.Target" xml:space="preserve"><value>目标显示器</value></data>
+  <data name="Display.Change" xml:space="preserve"><value>更改目标显示器</value></data>
+  <data name="Display.Checking" xml:space="preserve"><value>正在检查显示器</value></data>
+  <data name="Display.Detecting" xml:space="preserve"><value>正在检测可用显示器</value></data>
+  <data name="Display.SingleOnly" xml:space="preserve"><value>当前版本一次只处理一块显示器；选择显示器不会绑定应用。</value></data>
+  <data name="Display.OpenWindows" xml:space="preserve"><value>打开 Windows 显示设置</value></data>
+  <data name="Display.NoAutomaticHdr" xml:space="preserve"><value>Nera 不会自动修改 Windows HDR。</value></data>
+  <data name="Display.NoSelection" xml:space="preserve"><value>未选择显示器</value></data>
+  <data name="Display.Select" xml:space="preserve"><value>请选择目标显示器</value></data>
+  <data name="Display.Disconnected" xml:space="preserve"><value>目标显示器已断开。</value></data>
+  <data name="Display.RefreshUnknown" xml:space="preserve"><value>刷新率未知</value></data>
+  <data name="Display.HdrOff" xml:space="preserve"><value>HDR 未开启</value></data>
+  <data name="Display.NoHdr" xml:space="preserve"><value>不支持 HDR</value></data>
+  <data name="Dldr.Toggle" xml:space="preserve"><value>DLDR 开关</value></data>
+  <data name="Dldr.ToggleHelp" xml:space="preserve"><value>全显示器 DLDR；首张画面成功显示后才会显示 ON。</value></data>
+  <data name="Dldr.FirstFrameNotice" xml:space="preserve"><value>首帧门禁完成前，DLDR 不会显示为开启。</value></data>
+  <data name="Dldr.Checking" xml:space="preserve"><value>正在检查运行条件</value></data>
+  <data name="Dldr.Starting" xml:space="preserve"><value>正在开启…</value></data>
+  <data name="Dldr.Preparing" xml:space="preserve"><value>正在准备画面</value></data>
+  <data name="Dldr.Restoring" xml:space="preserve"><value>正在恢复原画</value></data>
+  <data name="Dldr.Switching" xml:space="preserve"><value>正在切换画面</value></data>
+  <data name="Dldr.SwitchingWait" xml:space="preserve"><value>正在切换画面，请稍候。</value></data>
+  <data name="Dldr.SafeSwitching" xml:space="preserve"><value>正在安全切换处理状态，请稍候。</value></data>
+  <data name="Dldr.TemporaryBypass" xml:space="preserve"><value>暂时旁路</value></data>
+  <data name="Dldr.ParameterReady" xml:space="preserve"><value>画面稳定后即可继续实时调节。</value></data>
+  <data name="Hdr.Checking" xml:space="preserve"><value>正在检查 Windows HDR</value></data>
+  <data name="Hdr.Required" xml:space="preserve"><value>需要先开启 Windows HDR。</value></data>
+  <data name="Recipe.Title" xml:space="preserve"><value>画面方案</value></data>
+  <data name="Recipe.Current" xml:space="preserve"><value>当前画面方案</value></data>
+  <data name="Recipe.CustomHelp" xml:space="preserve"><value>当前参数已手动调整；不是另一套固定方案。</value></data>
+  <data name="Recipe.Reset" xml:space="preserve"><value>恢复画面方案</value></data>
+  <data name="Recipe.LoadingDefaults" xml:space="preserve"><value>正在读取画面方案默认值</value></data>
+  <data name="Recipe.LocalEvidence" xml:space="preserve"><value>基于运行时 310.8 本机矩阵；仍待人眼盲测。</value></data>
+  <data name="Parameter.EffectStrength" xml:space="preserve"><value>效果强度</value></data>
+  <data name="Parameter.EffectHelp" xml:space="preserve"><value>调整 DLDR 最终效果；神经增强强度在下方实时调节中单独调整。</value></data>
+  <data name="Parameter.Intensity" xml:space="preserve"><value>神经增强强度</value></data>
+  <data name="Parameter.IntensityHelp" xml:space="preserve"><value>控制模型总体增强量；产品安全范围 0.00–1.00。</value></data>
+  <data name="Parameter.Style" xml:space="preserve"><value>DLSS5 风格</value></data>
+  <data name="Parameter.StyleHelp" xml:space="preserve"><value>当前运行时已验证的原生风格。</value></data>
+  <data name="Parameter.Tone" xml:space="preserve"><value>局部明暗</value></data>
+  <data name="Parameter.ToneHelp" xml:space="preserve"><value>调整模型对局部明暗层次的作用强度。</value></data>
+  <data name="Parameter.Structure" xml:space="preserve"><value>局部细节</value></data>
+  <data name="Parameter.StructureHelp" xml:space="preserve"><value>调整模型对纹理和局部结构的增强程度。</value></data>
+  <data name="Parameter.AutoMask" xml:space="preserve"><value>自动遮罩</value></data>
+  <data name="Parameter.AutoMaskHelp" xml:space="preserve"><value>原生参数，已确认会改变输出。运行时遮罩的准确识别语义尚未公开。</value></data>
+  <data name="Parameter.ColorTransfer" xml:space="preserve"><value>色彩回迁</value></data>
+  <data name="Parameter.Highlight" xml:space="preserve"><value>高光保护</value></data>
+  <data name="Parameter.Shadow" xml:space="preserve"><value>暗部保护</value></data>
+  <data name="Parameter.Temporal" xml:space="preserve"><value>时序稳定</value></data>
+  <data name="Parameter.Live" xml:space="preserve"><value>实时调节</value></data>
+  <data name="Parameter.ApplyHelp" xml:space="preserve"><value>更改后立即应用；状态以处理管线确认结果为准。</value></data>
+  <data name="Parameter.HdrHelp" xml:space="preserve"><value>保留 HDR 高光和色彩；以下参数不改变 DLSS5 原生风格。</value></data>
+  <data name="Performance.Title" xml:space="preserve"><value>性能</value></data>
+  <data name="Performance.Quality" xml:space="preserve"><value>画质</value></data>
+  <data name="Performance.Balanced" xml:space="preserve"><value>平衡</value></data>
+  <data name="Performance.Smooth" xml:space="preserve"><value>流畅</value></data>
+  <data name="Performance.DimensionsInitial" xml:space="preserve"><value>画质 · 神经输入 3840 × 2160</value></data>
+  <data name="Hud.Title" xml:space="preserve"><value>性能监视器</value></data>
+  <data name="Hud.Help" xml:space="preserve"><value>在最终输出上层显示系统与管线数据</value></data>
+  <data name="Hotkey.Title" xml:space="preserve"><value>快捷键</value></data>
+  <data name="Hotkey.Global" xml:space="preserve"><value>全局快捷键</value></data>
+  <data name="Hotkey.ToggleDldr" xml:space="preserve"><value>切换 DLDR</value></data>
+  <data name="Hotkey.ToggleHud" xml:space="preserve"><value>切换性能监视器</value></data>
+  <data name="Hotkey.ToggleApp" xml:space="preserve"><value>显示 / 隐藏 Nera</value></data>
+  <data name="Hotkey.Emergency" xml:space="preserve"><value>紧急停止</value></data>
+  <data name="Hotkey.HoldOriginal" xml:space="preserve"><value>按住查看原画</value></data>
+  <data name="Hotkey.HoldUnavailable" xml:space="preserve"><value>全局按住手势尚未实现。</value></data>
+  <data name="Hotkey.Waiting" xml:space="preserve"><value>等待注册状态</value></data>
+  <data name="Hotkey.Restore" xml:space="preserve"><value>恢复推荐快捷键</value></data>
+  <data name="Hotkey.RecordTitle" xml:space="preserve"><value>修改快捷键</value></data>
+  <data name="Hotkey.RecordHint" xml:space="preserve"><value>请按下键盘组合键。Esc 取消；不接受鼠标或手柄输入。</value></data>
+  <data name="Hotkey.RecordWaiting" xml:space="preserve"><value>等待键盘组合键…</value></data>
+  <data name="Hotkey.RecordLostFocus" xml:space="preserve"><value>Nera 已失去焦点，录制已取消。</value></data>
+  <data name="Hotkey.Invalid" xml:space="preserve"><value>快捷键组合无效。</value></data>
+  <data name="Hotkey.KeyboardOnly" xml:space="preserve"><value>仅支持键盘组合键。</value></data>
+  <data name="Hotkey.ModifierRequired" xml:space="preserve"><value>请使用修饰键加按键。</value></data>
+  <data name="Hotkey.Reserved" xml:space="preserve"><value>此组合键由 Windows 保留。</value></data>
+  <data name="Hotkey.InternalDuplicate" xml:space="preserve"><value>此组合键已用于 Nera 的其他操作。</value></data>
+  <data name="Hotkey.Conflict" xml:space="preserve"><value>此快捷键已被其他程序使用。</value></data>
+  <data name="Hotkey.Registered" xml:space="preserve"><value>快捷键已注册。</value></data>
+  <data name="Hotkey.FallbackSelected" xml:space="preserve"><value>首选组合键被占用，已使用可用候选。</value></data>
+  <data name="Hotkey.PreviousPreserved" xml:space="preserve"><value>未能更改快捷键，原组合键仍然可用。</value></data>
+  <data name="Hotkey.Cleared" xml:space="preserve"><value>快捷键已清除。</value></data>
+  <data name="Hotkey.NotRegistered" xml:space="preserve"><value>快捷键未注册。</value></data>
+  <data name="Hotkey.RegistrationFailed" xml:space="preserve"><value>快捷键注册失败。</value></data>
+  <data name="Hotkey.SaveFailed" xml:space="preserve"><value>快捷键未保存，原组合键保持不变。</value></data>
+  <data name="Hotkey.CleanupFailed" xml:space="preserve"><value>快捷键清理失败，原组合键保持不变。</value></data>
+  <data name="Hotkey.HoldUnsupported" xml:space="preserve"><value>按住查看原图尚未实现。</value></data>
+  <data name="Hotkey.FixedEmergency" xml:space="preserve"><value>紧急停止后备不可更改。</value></data>
+  <data name="Hotkey.FixedEmergencyUnavailable" xml:space="preserve"><value>紧急停止后备无法注册，DLDR 保持关闭。</value></data>
+  <data name="Hotkey.PreferencesInvalid" xml:space="preserve"><value>快捷键设置无法读取，未覆盖原文件。</value></data>
+  <data name="Hotkey.RecommendedRestored" xml:space="preserve"><value>推荐快捷键已恢复。</value></data>
+  <data name="Hotkey.FallbackLabel" xml:space="preserve"><value>固定后备：Ctrl + Alt + Backspace</value></data>
+  <data name="Hotkey.Summary" xml:space="preserve"><value>已注册 {0}/{1}。紧急停止后备：{2}。</value></data>
+  <data name="Ai.Title" xml:space="preserve"><value>智能体控制</value></data>
+  <data name="Ai.Allow" xml:space="preserve"><value>允许本机智能体控制 Nera</value></data>
+  <data name="Ai.DefaultOff" xml:space="preserve"><value>默认关闭</value></data>
+  <data name="Ai.LocalOnly" xml:space="preserve"><value>只接受当前用户本机接口；每项权限单独控制。</value></data>
+  <data name="Ai.ReadState" xml:space="preserve"><value>读取状态</value></data>
+  <data name="Ai.ToggleDldr" xml:space="preserve"><value>开关 DLDR</value></data>
+  <data name="Ai.Display" xml:space="preserve"><value>选择显示器与画面模式</value></data>
+  <data name="Ai.Hud" xml:space="preserve"><value>控制性能监视器</value></data>
+  <data name="Ai.Diagnostics" xml:space="preserve"><value>运行诊断</value></data>
+  <data name="Runtime.Title" xml:space="preserve"><value>DLSS5 运行时</value></data>
+  <data name="Runtime.Required" xml:space="preserve"><value>需要连接 DLSS5 运行时</value></data>
+  <data name="Runtime.AutoSearch" xml:space="preserve"><value>Nera 会先自动搜索已知本机路径。</value></data>
+  <data name="Runtime.Choose" xml:space="preserve"><value>选择运行时文件夹</value></data>
+  <data name="Runtime.PathMissing" xml:space="preserve"><value>路径 · 未找到</value></data>
+  <data name="Runtime.VersionUnknown" xml:space="preserve"><value>版本 · 未知</value></data>
+  <data name="Runtime.HashUnverified" xml:space="preserve"><value>SHA-256 · 未验证</value></data>
+  <data name="Runtime.SignatureUnverified" xml:space="preserve"><value>签名 · 未验证</value></data>
+  <data name="Runtime.AdapterChecking" xml:space="preserve"><value>运行时适配器 · 检测中</value></data>
+  <data name="Runtime.NotConnected" xml:space="preserve"><value>DLSS5 运行时 · 未连接</value></data>
+  <data name="Runtime.DlssDisconnected" xml:space="preserve"><value>DLSS5 · 未连接</value></data>
+  <data name="Diagnostics.Title" xml:space="preserve"><value>高级诊断</value></data>
+  <data name="Diagnostics.Refresh" xml:space="preserve"><value>刷新诊断</value></data>
+  <data name="Diagnostics.Help" xml:space="preserve"><value>分别查看显示器、捕获、Feature 18、DLDR 与显示层状态。</value></data>
+  <data name="Diagnostics.Summary" xml:space="preserve"><value>诊断摘要</value></data>
+  <data name="Diagnostics.Empty" xml:space="preserve"><value>尚无诊断数据</value></data>
+  <data name="Diagnostics.PresetInert" xml:space="preserve"><value>预设 · 当前运行时暂未观察到实际效果</value></data>
+  <data name="Diagnostics.UiUnknown" xml:space="preserve"><value>界面修正 · 接口尚未确认，不提供控件</value></data>
+  <data name="About.Title" xml:space="preserve"><value>关于</value></data>
+  <data name="About.Nera" xml:space="preserve"><value>关于 Nera</value></data>
+  <data name="About.Version" xml:space="preserve"><value>Nera · 0.4.1 全局显示测试版</value></data>
+  <data name="About.Portable" xml:space="preserve"><value>便携版 · 仅 HDR · FP16 线性 scRGB</value></data>
+  <data name="About.Boundary" xml:space="preserve"><value>无安装、无驱动、无服务，不修改 NVIDIA 运行时。</value></data>
+  <data name="Language.Title" xml:space="preserve"><value>语言</value></data>
+  <data name="Language.FollowSystem" xml:space="preserve"><value>跟随系统</value></data>
+  <data name="Language.RestoreSystem" xml:space="preserve"><value>恢复跟随系统</value></data>
+  <data name="Language.Help" xml:space="preserve"><value>语言更改立即生效，不改变画面参数。</value></data>
+  <data name="Language.EnUs" xml:space="preserve"><value>English</value></data>
+  <data name="Language.ZhTw" xml:space="preserve"><value>繁體中文</value></data>
+  <data name="Language.ZhCn" xml:space="preserve"><value>简体中文</value></data>
+  <data name="Language.SaveFailed" xml:space="preserve"><value>无法保存语言选择，原设置保持不变。</value></data>
+  <data name="Parameter.NeuralTitle" xml:space="preserve"><value>DLSS5 神经渲染</value></data>
+  <data name="Parameter.HdrTitle" xml:space="preserve"><value>HDR / DLDR</value></data>
+  <data name="Experiment.Title" xml:space="preserve"><value>实验性功能</value></data>
+  <data name="Experiment.Intro" xml:space="preserve"><value>这些运行时接口与 Nera 实验可能无效、不稳定，或仅在特定内容中产生变化。</value></data>
+  <data name="Experiment.ReadOnly" xml:space="preserve"><value>可信度登记 — 只读</value></data>
+  <data name="Experiment.SafeBoundary" xml:space="preserve"><value>未经验证的实验不能在此开启。本页不改变画面设置，也不发送运行时参数。</value></data>
+  <data name="Experiment.Facts" xml:space="preserve"><value>已证实事实：{0}</value></data>
+  <data name="Experiment.Hypothesis" xml:space="preserve"><value>推测，并非已确认保证：{0}</value></data>
+  <data name="Experiment.Risk" xml:space="preserve"><value>限制：{0}</value></data>
+  <data name="Experiment.Source" xml:space="preserve"><value>来源：{0} · 运行时 {1}</value></data>
+  <data name="Experiment.Lifecycle" xml:space="preserve"><value>重建要求：{0} · 安全默认值：{1}</value></data>
+  <data name="Experiment.PublicEvidence" xml:space="preserve"><value>公开互操作研究与 Nera 本机测试；不是 NVIDIA 官方契约</value></data>
+  <data name="Experiment.NeraSource" xml:space="preserve"><value>Nera 设计与输入契约审查</value></data>
+  <data name="Experiment.Effective" xml:space="preserve"><value>原生接口，已确认有效</value></data>
+  <data name="Experiment.SemanticsUnknown" xml:space="preserve"><value>原生接口，效果已确认，准确语义尚未确认</value></data>
+  <data name="Experiment.Conditional" xml:space="preserve"><value>原生接口，条件行为尚未验证</value></data>
+  <data name="Experiment.Inert" xml:space="preserve"><value>原生接口，当前运行时未观察到效果</value></data>
+  <data name="Experiment.Unknown" xml:space="preserve"><value>原生接口，当前状态未知</value></data>
+  <data name="Experiment.Nera" xml:space="preserve"><value>Nera 实验功能，尚未实现</value></data>
+  <data name="Experiment.Removed" xml:space="preserve"><value>已从正式功能中移除</value></data>
+  <data name="Experiment.SkinName" xml:space="preserve"><value>皮肤细节</value></data>
+  <data name="Experiment.SkinFacts" xml:space="preserve"><value>接口存在。本机对运行时 310.8 的受控测试未观察到可重复的输出差异。</value></data>
+  <data name="Experiment.SkinHypothesis" xml:space="preserve"><value>名称暗示可能控制皮肤区域细节；准确遮罩与适用条件尚未确认。</value></data>
+  <data name="Experiment.SkinRisk" xml:space="preserve"><value>不作为可编辑的正式控件。API 接受参数不等于画面有效果。</value></data>
+  <data name="Experiment.PresetName" xml:space="preserve"><value>预设</value></data>
+  <data name="Experiment.PresetFacts" xml:space="preserve"><value>已知离散值可被接受，但本机单变量测试未发现有效的神经输出变化。</value></data>
+  <data name="Experiment.PresetHypothesis" xml:space="preserve"><value>可能是创建时提示值，与风格是不同字段。</value></data>
+  <data name="Experiment.PresetRisk" xml:space="preserve"><value>不进入普通控件，不得把切换它称为切换模型。</value></data>
+  <data name="Experiment.UiName" xml:space="preserve"><value>界面修正</value></data>
+  <data name="Experiment.UiFacts" xml:space="preserve"><value>公开研究提到此接口，但 Nera 全局显示模式尚未验证可靠的输入资源 ABI。</value></data>
+  <data name="Experiment.UiHypothesis" xml:space="preserve"><value>可能需要渲染程序提供有效的 UI、UIAlpha 和后台缓冲区输入。</value></data>
+  <data name="Experiment.UiRisk" xml:space="preserve"><value>保持禁用。本页不推定、生成或发送语义 UI 遮罩。</value></data>
+  <data name="Experiment.AutoFacts" xml:space="preserve"><value>这个原生参数会改变当前运行时输出，运行时会生成某种自动遮罩。</value></data>
+  <data name="Experiment.AutoHypothesis" xml:space="preserve"><value>可能与人物或皮肤有关，但此解释尚未验证，也不是产品保证。</value></data>
+  <data name="Experiment.AutoRisk" xml:space="preserve"><value>正式的自动遮罩控件仍可使用；它不是已删除的 Nera 启发式界面保护。</value></data>
+  <data name="Experiment.HoldFacts" xml:space="preserve"><value>RegisterHotKey 未提供可靠按住手势所需的全局按键松开契约。</value></data>
+  <data name="Experiment.HoldHypothesis" xml:space="preserve"><value>未来设计必须证明按下与松开行为安全，且不干扰应用输入。</value></data>
+  <data name="Experiment.HoldRisk" xml:space="preserve"><value>尚未实现或注册，不新增键盘钩子、鼠标钩子或输入转发。</value></data>
+  <data name="Experiment.RecreateYes" xml:space="preserve"><value>需要重建功能实例</value></data>
+  <data name="Experiment.RecreateNo" xml:space="preserve"><value>不需要，在处理帧时应用</value></data>
+  <data name="Experiment.RecreateUnknown" xml:space="preserve"><value>尚未验证</value></data>
+  <data name="Experiment.Off" xml:space="preserve"><value>关闭，不自动开启</value></data>
+  <data name="Experiment.ExistingValue" xml:space="preserve"><value>保留当前用户值</value></data>
+  <data name="Ui.ControlNotReady" xml:space="preserve"><value>Nera 控制层未就绪</value></data>
+  <data name="Ui.KeepOffDetails" xml:space="preserve"><value>DLDR 保持关闭；请查看高级诊断。</value></data>
+  <data name="Ui.AgentUnavailable" xml:space="preserve"><value>本机智能体接口未启动</value></data>
+  <data name="Ui.AgentUnavailableHelp" xml:space="preserve"><value>图形界面仍可使用；AgentBridge 保持不可连接。请查看高级诊断。</value></data>
+  <data name="Ui.CleanupUnconfirmed" xml:space="preserve"><value>尚未确认控制会话已释放。</value></data>
+  <data name="Ui.StateUnavailable" xml:space="preserve"><value>状态不可用；DLDR 不会显示为开启</value></data>
+  <data name="Ui.RuntimeStateUnavailable" xml:space="preserve"><value>DLSS5 · 状态不可用</value></data>
+  <data name="Ui.StateReadFailed" xml:space="preserve"><value>状态读取失败</value></data>
+  <data name="Ui.StopRequested" xml:space="preserve"><value>已请求紧急停止；不会虚报恢复完成。</value></data>
+  <data name="Ui.ControlDisconnected" xml:space="preserve"><value>控制层未连接</value></data>
+  <data name="Ui.NotExecuted" xml:space="preserve"><value>操作未执行。</value></data>
+  <data name="Ui.EmergencyUnconfirmed" xml:space="preserve"><value>紧急停止未确认</value></data>
+  <data name="Ui.EmergencyUnconfirmedHelp" xml:space="preserve"><value>界面已撤销 ON 状态，但不会虚报普通输出已恢复。</value></data>
+  <data name="Ui.StateChanged" xml:space="preserve"><value>状态已变化，请确认当前设置后重试。</value></data>
+  <data name="Ui.Closing" xml:space="preserve"><value>正在关闭…</value></data>
+  <data name="Ui.HdrDisabled" xml:space="preserve"><value>未启用</value></data>
+  <data name="Ui.AdvancedColor" xml:space="preserve"><value>{0} · 高级颜色</value></data>
+  <data name="Ui.HdrEnableTarget" xml:space="preserve"><value>请先在 Windows 中为目标显示器开启 HDR</value></data>
+  <data name="Ui.AdapterVersion" xml:space="preserve"><value>运行时适配器 · {0}</value></data>
+  <data name="Ui.RuntimeVersion" xml:space="preserve"><value>DLSS5 运行时 · {0}</value></data>
+  <data name="Ui.DisplayAdapter" xml:space="preserve"><value>{0} · 适配器 {1}</value></data>
+  <data name="Ui.NeuralDimensions" xml:space="preserve"><value>{0} · 神经输入 {1} × {2} · 输出 {3} × {4}</value></data>
+  <data name="Ui.NeuralScale" xml:space="preserve"><value>{0} · 神经输入 {1}%</value></data>
+  <data name="Ui.RuntimePath" xml:space="preserve"><value>路径 · {0}</value></data>
+  <data name="Ui.FileVersion" xml:space="preserve"><value>版本 · {0}</value></data>
+  <data name="Ui.Signature" xml:space="preserve"><value>签名 · {0} · {1}</value></data>
+  <data name="Ui.Valid" xml:space="preserve"><value>有效</value></data>
+  <data name="Ui.Invalid" xml:space="preserve"><value>无效</value></data>
+  <data name="Ui.RecipeDefaults" xml:space="preserve"><value>方案默认值 · 风格 {0} · 神经强度 {1:0.00} · 局部明暗 {2:0.00} · 局部细节 {3:0.00}</value></data>
+  <data name="Ui.OverlayBypass" xml:space="preserve"><value>覆盖层兼容旁路</value></data>
+  <data name="Ui.OverlayBypassHelp" xml:space="preserve"><value>当前显示原画，关闭覆盖层并确认新画面后自动恢复。也可以关闭 DLDR。</value></data>
+  <data name="Ui.DldrEnabled" xml:space="preserve"><value>DLDR 已开启</value></data>
+  <data name="Ui.FrameConfirmed" xml:space="preserve"><value>第 {0} 帧已通过完整处理与显示门禁。</value></data>
+  <data name="Ui.DldrStarting" xml:space="preserve"><value>正在开启 DLDR</value></data>
+  <data name="Ui.WaitActualFrame" xml:space="preserve"><value>正在等待真实处理首帧；此时仍显示普通 Windows 输出。</value></data>
+  <data name="Ui.PreparingPipeline" xml:space="preserve"><value>正在验证显示器并准备处理链。</value></data>
+  <data name="Ui.Restoring" xml:space="preserve"><value>正在恢复原画</value></data>
+  <data name="Ui.Releasing" xml:space="preserve"><value>显示层、捕获与处理宿主正在安全释放。</value></data>
+  <data name="Ui.DldrFailed" xml:space="preserve"><value>DLDR 开启失败</value></data>
+  <data name="Ui.NoFalseOn" xml:space="preserve"><value>不会显示 DLDR ON；详情位于高级诊断。</value></data>
+  <data name="Ui.DldrDisabled" xml:space="preserve"><value>DLDR 已关闭</value></data>
+  <data name="Ui.OriginalWindows" xml:space="preserve"><value>当前显示普通 Windows 输出。</value></data>
+  <data name="Ui.DisplayUnavailable" xml:space="preserve"><value>显示器不可用</value></data>
+  <data name="Ui.SelectCapturable" xml:space="preserve"><value>请在设置中选择可捕获的目标显示器。</value></data>
+  <data name="Ui.EnableWindowsHdr" xml:space="preserve"><value>请先开启 Windows HDR</value></data>
+  <data name="Ui.NoWindowsChanges" xml:space="preserve"><value>Nera 不会自动修改 Windows 显示设置。</value></data>
+  <data name="Ui.EditFailed" xml:space="preserve"><value>调整未完成</value></data>
+  <data name="Ui.EditRetry" xml:space="preserve"><value>参数未能应用，请重试。</value></data>
+  <data name="Ui.ScaleChanging" xml:space="preserve"><value>正在安全切换性能模式…</value></data>
+  <data name="Ui.ParameterPending" xml:space="preserve"><value>正在应用调整，等待画面确认…</value></data>
+  <data name="Ui.DiagnosticsRefreshed" xml:space="preserve"><value>诊断已刷新</value></data>
+  <data name="Ui.DiagnosticsPrivacy" xml:space="preserve"><value>技术信息只显示 Nera 自身状态。</value></data>
+  <data name="Ui.WindowsSettingsFailed" xml:space="preserve"><value>无法打开显示设置</value></data>
+  <data name="Ui.WindowsSettingsRetry" xml:space="preserve"><value>Windows 显示设置未能打开，请稍后重试。</value></data>
+  <data name="Ai.Cli" xml:space="preserve"><value>命令行</value></data>
+  <data name="Ai.Orchestrator" xml:space="preserve"><value>编排器</value></data>
+  <data name="Ai.LocalAgent" xml:space="preserve"><value>本机智能体</value></data>
+  <data name="Ai.ConnectionSummary" xml:space="preserve"><value>{0}正在通过当前用户专属的本机接口连接 Nera。</value></data>
+  <data name="Ai.ConnectionHelp" xml:space="preserve"><value>AgentBridge {0}。请只允许刚刚由你启动的连接；智能体的各项权限仍然有效。</value></data>
+  <data name="Ai.ConnectionSession" xml:space="preserve"><value>“始终允许”仅在本次 Nera 运行期间有效，不会开启网络端口。</value></data>
+  <data name="Ai.ConnectionTitle" xml:space="preserve"><value>允许此本机 AgentBridge 连接？</value></data>
+  <data name="Ai.AlwaysAllow" xml:space="preserve"><value>本次运行始终允许</value></data>
+  <data name="Ai.AllowOnce" xml:space="preserve"><value>仅本次允许</value></data>
+  <data name="Ai.Deny" xml:space="preserve"><value>拒绝</value></data>
+  <data name="Ai.ConnectionAccessible" xml:space="preserve"><value>本机智能体连接确认</value></data>
+  <data name="Ai.Enabled" xml:space="preserve"><value>AI 控制已开启</value></data>
+  <data name="Ai.Disabled" xml:space="preserve"><value>AI 控制已关闭</value></data>
+  <data name="Ai.SaveFailed" xml:space="preserve"><value>AI 控制设置未保存</value></data>
+  <data name="Ai.PermissionScope" xml:space="preserve"><value>权限只对本机当前用户的 AgentBridge 生效。</value></data>
+  <data name="Ui.BackendDisconnected" xml:space="preserve"><value>控制后端未连接</value></data>
+  <data name="State.OverlayHint" xml:space="preserve"><value>覆盖层打开期间显示原画，关闭后自动恢复处理</value></data>
+  <data name="State.WarmHint" xml:space="preserve"><value>当前显示普通 Windows 输出，处理宿主保留待命</value></data>
+  <data name="State.ProcessingHint" xml:space="preserve"><value>整块显示器正在通过 DLSS5、DLDR 与 FP16 scRGB 显示层输出</value></data>
+  <data name="State.CheckDisplay" xml:space="preserve"><value>正在检查目标显示器</value></data>
+  <data name="State.CheckGpu" xml:space="preserve"><value>正在验证 RTX GPU</value></data>
+  <data name="State.Stopping" xml:space="preserve"><value>正在停止显示层、捕获和处理宿主</value></data>
+  <data name="State.OriginalHdr" xml:space="preserve"><value>当前显示普通 Windows HDR 原画</value></data>
+  <data name="State.FailedRestored" xml:space="preserve"><value>DLDR 未继续，普通 Windows 输出已确认</value></data>
+  <data name="State.CleanupPending" xml:space="preserve"><value>DLDR 已关闭，但后台清理尚未完成</value></data>
+  <data name="State.Ready" xml:space="preserve"><value>已就绪，点击开启</value></data>
+  <data name="State.RuntimeMissing" xml:space="preserve"><value>未连接运行时</value></data>
+  <data name="State.RuntimeChecking" xml:space="preserve"><value>正在检查运行时</value></data>
+  <data name="State.RuntimeVerified" xml:space="preserve"><value>运行时已验证</value></data>
+  <data name="State.ReadyShort" xml:space="preserve"><value>已就绪</value></data>
+  <data name="State.Original" xml:space="preserve"><value>原画</value></data>
+  <data name="State.Problem" xml:space="preserve"><value>出现问题</value></data>
+  <data name="State.FirstFramePending" xml:space="preserve"><value>首帧门禁未通过</value></data>
+  <data name="Recipe.Description" xml:space="preserve"><value>{0} · Nera 画面方案，包含神经渲染与 HDR 参数</value></data>
+  <data name="Recipe.CustomDescription" xml:space="preserve"><value>自定义 · 当前参数已手动调整</value></data>
+  <data name="Recipe.Summary" xml:space="preserve"><value>画面方案 · {0}
+效果强度 · {1}
+性能模式 · {2}
+性能监视器 · {3}</value></data>
+  <data name="Runtime.ConnectedVersion" xml:space="preserve"><value>已连接实验运行时 {0}</value></data>
+  <data name="Runtime.Checking" xml:space="preserve"><value>正在检查 DLSS5 运行时</value></data>
+  <data name="Runtime.Verified" xml:space="preserve"><value>版本、SHA-256 与签名身份门禁已通过。</value></data>
+  <data name="Runtime.Unsupported" xml:space="preserve"><value>尚未验证此版本</value></data>
+  <data name="Runtime.ManualFallback" xml:space="preserve"><value>自动搜索未找到后，可显式选择运行时文件夹。</value></data>
+  <data name="State.ActionRestored" xml:space="preserve"><value>操作未完成，已恢复原画</value></data>
+  <data name="State.ActionUnaffected" xml:space="preserve"><value>操作未完成，普通 Windows 输出未受影响</value></data>
+  <data name="State.MessageRestored" xml:space="preserve"><value>{0} 已恢复原画。</value></data>
+  <data name="Osd.Window" xml:space="preserve"><value>Nera DLDR 状态提示</value></data>
+  <data name="Osd.Failed" xml:space="preserve"><value>开启失败</value></data>
+  <data name="Osd.Restored" xml:space="preserve"><value>已恢复原画</value></data>
+  <data name="Error.OPERATION_FAILED" xml:space="preserve"><value>操作未能完成，请查看诊断后重试。</value></data>
+  <data name="Error.INVALID_ARGUMENT" xml:space="preserve"><value>命令参数无效。</value></data>
+  <data name="Error.PERMISSION_DENIED" xml:space="preserve"><value>当前用户无权执行此操作。</value></data>
+  <data name="Error.STATE_CHANGED" xml:space="preserve"><value>Nera 状态已改变，请刷新后重试。</value></data>
+  <data name="Error.RUNTIME_MISSING" xml:space="preserve"><value>未找到可用的 DLSS5 运行时。</value></data>
+  <data name="Error.RUNTIME_UNVERIFIED" xml:space="preserve"><value>此 DLSS5 运行时尚未通过身份验证。</value></data>
+  <data name="Error.SERVICE_UNAVAILABLE" xml:space="preserve"><value>Nera 控制层未运行或暂时不可用。</value></data>
+  <data name="Error.PROTOCOL_MISMATCH" xml:space="preserve"><value>AgentBridge 与 Nera 的协议版本不匹配。</value></data>
+  <data name="Error.MALFORMED_RESPONSE" xml:space="preserve"><value>Nera 控制层返回了无法识别的结果。</value></data>
+  <data name="Error.RESPONSE_TOO_LARGE" xml:space="preserve"><value>Nera 控制消息超过大小限制。</value></data>
+  <data name="Error.TIMEOUT" xml:space="preserve"><value>Nera 控制请求超时。</value></data>
+  <data name="Error.CANCELLED" xml:space="preserve"><value>Nera 控制请求已取消。</value></data>
+  <data name="Error.HDR_SYSTEM_DISABLED" xml:space="preserve"><value>开启 DLDR 前，请先在 Windows 中开启 HDR。</value></data>
+  <data name="Error.DISPLAY_UNAVAILABLE" xml:space="preserve"><value>所选显示器不可用。</value></data>
+  <data name="Error.DISPLAY_REQUIRED" xml:space="preserve"><value>请先选择显示器。</value></data>
+  <data name="Error.RTX_GPU_REQUIRED" xml:space="preserve"><value>需要受支持的 RTX GPU。</value></data>
+  <data name="Error.FAIL_SAFE_FAILED" xml:space="preserve"><value>尚未确认恢复完成。请使用紧急停止并查看诊断。</value></data>
+  <data name="Hotkey.Recording" xml:space="preserve"><value>正在录制快捷键</value></data>
+  <data name="Cli.Error" xml:space="preserve"><value>错误 {0}：{1}</value></data>
+  <data name="Cli.Success" xml:space="preserve"><value>成功 · 修订号 {0} · {1}</value></data>
+  <data name="Cli.UnknownCommand" xml:space="preserve"><value>未知命令：{0}</value></data>
+  <data name="Cli.OptionalJson" xml:space="preserve"><value>{0} 只接受可选的 --json 参数。</value></data>
+  <data name="Cli.DisplayArgument" xml:space="preserve"><value>display 需要从 1 开始的显示器编号或精确显示器 ID。</value></data>
+  <data name="Cli.DisplayRange" xml:space="preserve"><value>显示器编号必须在 1 到 {0} 之间。</value></data>
+  <data name="Cli.DisplayMissing" xml:space="preserve"><value>当前显示器列表中没有此显示器 ID。</value></data>
+  <data name="Cli.OnOff" xml:space="preserve"><value>{0} 需要 on 或 off。</value></data>
+  <data name="Cli.Enum" xml:space="preserve"><value>{0} 需要以下值之一：{1}。</value></data>
+  <data name="Cli.StrengthArgument" xml:space="preserve"><value>strength 需要 0 到 100 的整数。</value></data>
+  <data name="Cli.SelfTestArgument" xml:space="preserve"><value>self-test 最多接受一个范围参数。</value></data>
+  <data name="Cli.NrArgument" xml:space="preserve"><value>nr 需要风格(0/1/2)、强度、局部明暗、局部细节、皮肤细节与自动遮罩(on/off)。</value></data>
+  <data name="Cli.DldrArgument" xml:space="preserve"><value>dldr-parameters 需要高光、暗部、色彩回迁与时序响应。</value></data>
+  <data name="Cli.StyleArgument" xml:space="preserve"><value>风格必须为 0、1 或 2；自动遮罩必须为 on 或 off。</value></data>
+  <data name="Cli.FiniteArgument" xml:space="preserve"><value>参数必须是有限数值。</value></data>
+  <data name="Cli.Status" xml:space="preserve"><value>DLDR {0} · {1} · 修订号 {2}</value></data>
+  <data name="Cli.Display" xml:space="preserve"><value>显示器：{0} · {1} × {2} · {3:0.#} Hz · HDR {4}</value></data>
+  <data name="Cli.Visual" xml:space="preserve"><value>画面方案：{0} · 效果强度 {1} · {2}（神经输入 {3}%）· 神经增强强度 {4:0.00} · 监视器 {5}</value></data>
+  <data name="Cli.Ownership" xml:space="preserve"><value>拥有代理进程：{0} · 代理已就绪：{1} · 关闭门禁：{2}</value></data>
+  <data name="Cli.DisplayCount" xml:space="preserve"><value>显示器数量：{0}</value></data>
+  <data name="Cli.Performance" xml:space="preserve"><value>FPS {0} · 平均 {1} · 1% Low {2}</value></data>
+  <data name="Cli.Pipeline" xml:space="preserve"><value>捕获 {0} · 处理 {1} · 呈现 {2} · 丢帧 {3}</value></data>
+  <data name="Cli.Recommendation" xml:space="preserve"><value>建议：{0} · 神经输入 {1}% · 方案 {2} · 强度 {3}</value></data>
+  <data name="Cli.Confidence" xml:space="preserve"><value>可信度：{0}</value></data>
+  <data name="Cli.Diagnostics" xml:space="preserve"><value>诊断修订号 {0} · DLDR {1} · 恢复状态 {2}</value></data>
+  <data name="Cli.DiagnosticGates" xml:space="preserve"><value>GPU 已验证：{0} · 运行时已验证：{1} · 宿主已连接：{2} · 功能已创建：{3} · 显示层已就绪：{4} · 前台已保持：{5}</value></data>
+  <data name="Cli.LastError" xml:space="preserve"><value>最近错误：{0} · {1}</value></data>
+  <data name="Cli.Usage" xml:space="preserve"><value>用法：</value></data>
+  <data name="Common.Yes" xml:space="preserve"><value>是</value></data>
+  <data name="Common.No" xml:space="preserve"><value>否</value></data>
+  <data name="Common.High" xml:space="preserve"><value>高</value></data>
+  <data name="Common.Medium" xml:space="preserve"><value>中</value></data>
+  <data name="Common.Low" xml:space="preserve"><value>低</value></data>
+  <data name="State.RecoveryFailed" xml:space="preserve"><value>恢复失败</value></data>
+  <data name="State.Normal" xml:space="preserve"><value>正常</value></data>
+  <data name="Recommendation.Wait" xml:space="preserve"><value>先保持当前神经输入比例，待获得实际性能数据后再调整。</value></data>
+  <data name="Recommendation.Smooth" xml:space="preserve"><value>保持最终输出分辨率不变，同时降低神经处理负载。</value></data>
+  <data name="Recommendation.Balanced" xml:space="preserve"><value>缩小神经输入以释放 GPU 余量，最终输出分辨率保持不变。</value></data>
+  <data name="Recommendation.Quality" xml:space="preserve"><value>当前实测余量充足，保持完整神经输入分辨率。</value></data>
+  <data name="Recommendation.NoData" xml:space="preserve"><value>暂时没有实时 GPU 时间和吞吐量数据；获得实际帧数据前，建议保持当前画质档位。</value></data>
+  <data name="Recommendation.Reason" xml:space="preserve"><value>目标 {0} × {1}、{2:F1} FPS（每帧 {3:F2} ms）。DLSS5 {4:F2} ms、GPU {5:F1}%、处理 {6:F1} FPS。</value></data>
+  <data name="Control.InputOriginRejected" xml:space="preserve"><value>此输入不能控制 DLDR，当前状态保持不变。</value></data>
+  <data name="Mcp.ExpectedRevision" xml:space="preserve"><value>来自 nera_get_status 的乐观并发修订号。</value></data>
+  <data name="Mcp.DisplayId" xml:space="preserve"><value>nera_get_displays 返回的不透明显示器标识。</value></data>
+  <data name="Mcp.GetStatus" xml:space="preserve"><value>返回当前 Nera 状态与修订号。</value></data>
+  <data name="Mcp.GetDisplays" xml:space="preserve"><value>列出可用于全显示器捕获的已连接显示器。</value></data>
+  <data name="Mcp.SetDisplay" xml:space="preserve"><value>通过不透明标识选择一个目标显示器。</value></data>
+  <data name="Mcp.Enable" xml:space="preserve"><value>仅在显示器、HDR、RTX、运行时、捕获、新帧、显示与前台检查通过后，开启全局 DLDR。</value></data>
+  <data name="Mcp.Disable" xml:space="preserve"><value>先恢复普通 Windows 显示输出，再报告 DLDR 已关闭。</value></data>
+  <data name="Mcp.SetMode" xml:space="preserve"><value>应用 Nera 画面方案，将参数写入同一组当前设置。</value></data>
+  <data name="Mcp.SetStrength" xml:space="preserve"><value>设置 0 到 100 的 DLDR 效果强度，不改变神经增强强度。</value></data>
+  <data name="Mcp.SetPerformance" xml:space="preserve"><value>显式选择神经处理比例。处理中会安全恢复原画并重建尺寸相关资源，确认新帧后才恢复输出。</value></data>
+  <data name="Mcp.SetNr" xml:space="preserve"><value>设置完整神经参数组。处理中仅在管线确认后更新状态，画面方案会变为自定义。自动遮罩会影响输出，但确切语义仍未确认。</value></data>
+  <data name="Mcp.SetDldr" xml:space="preserve"><value>设置完整 HDR 回迁参数组。处理中仅在管线确认后更新状态，画面方案会变为自定义。</value></data>
+  <data name="Mcp.SetHud" xml:space="preserve"><value>显示或隐藏 Nera 性能监视器。</value></data>
+  <data name="Mcp.GetPerformance" xml:space="preserve"><value>返回当前实测性能数据。</value></data>
+  <data name="Mcp.Recommend" xml:space="preserve"><value>返回显示设置建议，不会自动应用。</value></data>
+  <data name="Mcp.SelfTest" xml:space="preserve"><value>启动范围明确的 Nera 自检。</value></data>
+  <data name="Mcp.Diagnostics" xml:space="preserve"><value>返回经过隐私清理的 Nera 诊断。</value></data>
+  <data name="Mcp.Emergency" xml:space="preserve"><value>立即请求恢复普通 Windows 输出，并仅停止 Nera 拥有的处理进程。</value></data>
+  <data name="Mcp.Title.nera_get_status" xml:space="preserve"><value>获取状态</value></data>
+  <data name="Mcp.Title.nera_get_displays" xml:space="preserve"><value>获取显示器</value></data>
+  <data name="Mcp.Title.nera_set_display" xml:space="preserve"><value>选择显示器</value></data>
+  <data name="Mcp.Title.nera_enable_dldr" xml:space="preserve"><value>开启 DLDR</value></data>
+  <data name="Mcp.Title.nera_disable_dldr" xml:space="preserve"><value>关闭 DLDR</value></data>
+  <data name="Mcp.Title.nera_set_mode" xml:space="preserve"><value>设置画面方案</value></data>
+  <data name="Mcp.Title.nera_set_strength" xml:space="preserve"><value>设置 DLDR 效果强度</value></data>
+  <data name="Mcp.Title.nera_set_performance_mode" xml:space="preserve"><value>设置性能档位</value></data>
+  <data name="Mcp.Title.nera_set_nr_parameters" xml:space="preserve"><value>设置神经渲染参数</value></data>
+  <data name="Mcp.Title.nera_set_dldr_parameters" xml:space="preserve"><value>设置 HDR 回迁参数</value></data>
+  <data name="Mcp.Title.nera_set_hud" xml:space="preserve"><value>设置性能监视器</value></data>
+  <data name="Mcp.Title.nera_get_performance" xml:space="preserve"><value>获取性能数据</value></data>
+  <data name="Mcp.Title.nera_recommend_settings" xml:space="preserve"><value>获取设置建议</value></data>
+  <data name="Mcp.Title.nera_run_self_test" xml:space="preserve"><value>运行自检</value></data>
+  <data name="Mcp.Title.nera_get_diagnostics" xml:space="preserve"><value>获取诊断</value></data>
+  <data name="Mcp.Title.nera_emergency_stop" xml:space="preserve"><value>紧急停止</value></data>
+  <data name="Mcp.ServerDescription" xml:space="preserve"><value>仅限当前用户在本机使用的 Nera 有界控制桥接。</value></data>
+  <data name="Mcp.Instructions" xml:space="preserve"><value>Nera 只控制一台已选择的显示器。修改前请先读取 nera_get_status 并提供 expected_revision。只有已提交状态中的 dldrOn=true 才表示 DLDR 已开启。需要安全恢复时请使用 nera_emergency_stop。</value></data>
+  <data name="Mcp.Error.MessageLimit" xml:space="preserve"><value>MCP 消息超过 1 MiB 限制。</value></data>
+  <data name="Mcp.Error.JsonParse" xml:space="preserve"><value>JSON 解析失败。</value></data>
+  <data name="Mcp.Error.RequestInvalid" xml:space="preserve"><value>JSON-RPC 请求无效。</value></data>
+  <data name="Mcp.Error.IdInvalid" xml:space="preserve"><value>JSON-RPC 请求 ID 无效。</value></data>
+  <data name="Mcp.Error.InitializedInvalid" xml:space="preserve"><value>初始化完成通知无效。</value></data>
+  <data name="Mcp.Error.UnsupportedVersion" xml:space="preserve"><value>不支持此 MCP 协议版本。</value></data>
+  <data name="Mcp.Error.MetadataRequired" xml:space="preserve"><value>现代 MCP 请求必须提供元数据。</value></data>
+  <data name="Mcp.Error.DiscoverMetadata" xml:space="preserve"><value>server/discover 仅在提供 MCP 2026-07-28 元数据时可用。</value></data>
+  <data name="Mcp.Error.MethodMissing" xml:space="preserve"><value>找不到方法：{0}</value></data>
+  <data name="Mcp.Error.LegacyInvalid" xml:space="preserve"><value>旧版初始化请求无效或重复。</value></data>
+  <data name="Mcp.Error.DiscoverOnlyMeta" xml:space="preserve"><value>server/discover 只接受 _meta。</value></data>
+  <data name="Mcp.Error.ListInvalid" xml:space="preserve"><value>tools/list 参数无效。</value></data>
+  <data name="Mcp.Error.CursorInvalid" xml:space="preserve"><value>tools/list 游标无效或已过期。</value></data>
+  <data name="Mcp.Error.CallInvalid" xml:space="preserve"><value>tools/call 参数无效。</value></data>
+  <data name="Mcp.Error.UnknownTool" xml:space="preserve"><value>未知工具：{0}</value></data>
+  <data name="Mcp.Error.ToolArgumentsInvalid" xml:space="preserve"><value>工具参数无效。</value></data>
+  <data name="Mcp.Error.ParamsMetaRequired" xml:space="preserve"><value>每个 MCP 2026-07-28 请求都必须包含 params._meta。</value></data>
+  <data name="Mcp.Error.ProtocolMetaRequired" xml:space="preserve"><value>必须提供 MCP protocolVersion 元数据。</value></data>
+  <data name="Mcp.Error.CapabilitiesObject" xml:space="preserve"><value>MCP clientCapabilities 元数据必须是对象。</value></data>
+  <data name="Mcp.Error.InfoInvalid" xml:space="preserve"><value>MCP clientInfo 元数据格式无效。</value></data>
+  <data name="ControlWindow.Quit" xml:space="preserve"><value>退出 Nera</value></data>
+  <data name="ControlWindow.CloseHelp" xml:space="preserve"><value>DLDR 开启时，关闭窗口会最小化 Nera 并继续处理。选择“退出 Nera”才会恢复原画并退出。</value></data>
+  <data name="Tutorial.Replay" xml:space="preserve"><value>再次查看使用教程</value></data>
+  <data name="Tutorial.ReplayHelp" xml:space="preserve"><value>教程会先关闭 DLDR，不会修改画面参数。</value></data>
+  <data name="Tutorial.Title1" xml:space="preserve"><value>欢迎使用 Nera</value></data>
+  <data name="Tutorial.Title2" xml:space="preserve"><value>开启前检查</value></data>
+  <data name="Tutorial.Title3" xml:space="preserve"><value>一个显示模式，处理整块显示器</value></data>
+  <data name="Tutorial.Title4" xml:space="preserve"><value>你的快捷键</value></data>
+  <data name="Tutorial.Title5" xml:space="preserve"><value>从合适的设置开始</value></data>
+  <data name="Tutorial.Intro" xml:space="preserve"><value>Nera 为 Windows 加入实验性的 DLDR 显示模式。&#10;&#10;开启 DLDR 后，继续正常使用 Windows 即可。DLSS5 神经渲染与 DLDR 配合，保留 HDR 显示管线。&#10;&#10;Nera 不会修改应用或游戏文件、显卡驱动，或磁盘上的 NVIDIA 运行时文件。实验兼容处理只在 Nera 自有的隔离宿主中执行。</value></data>
+  <data name="Tutorial.Checks" xml:space="preserve"><value>显示器：{0}&#10;&#10;Windows HDR：{1}&#10;兼容 NVIDIA GPU：{2}&#10;DLSS5 运行时：{3}&#10;&#10;如有需要，请自行开启 Windows HDR。请选择你合法取得的运行时；Nera 不会下载或修改它。</value></data>
+  <data name="Tutorial.NotReady" xml:space="preserve"><value>尚未验证</value></data>
+  <data name="Tutorial.Verified" xml:space="preserve"><value>已验证</value></data>
+  <data name="Tutorial.Use" xml:space="preserve"><value>1. 点击 DLDR。&#10;2. 等待屏幕中央显示 DLDR ON。&#10;3. 正常使用图片、视频、桌面或游戏。&#10;4. 再次点击 DLDR，或使用快捷键关闭。&#10;&#10;可从任务栏或通过快捷键重新打开 Nera，无需关闭 DLDR 即可调节画面。</value></data>
+  <data name="Tutorial.EmergencyFallback" xml:space="preserve"><value>Ctrl + Alt + Backspace 始终保留为紧急停止后备键。请确认下方实际注册状态。</value></data>
+  <data name="Tutorial.FallbackStatus" xml:space="preserve"><value>已注册的后备键：{0}</value></data>
+  <data name="Tutorial.Measured" xml:space="preserve"><value>现有本机样本：DLSS5 处理平均 {0:F2} ms。这不代表完整稳定性测试。</value></data>
+  <data name="Tutorial.NotMeasured" xml:space="preserve"><value>尚无本机快速测试结果。以下仅为起始建议，不是已经验证的性能结果。</value></data>
+  <data name="Tutorial.DisplaySummary" xml:space="preserve"><value>当前显示器：{0} × {1} · {2:F1} Hz</value></data>
+  <data name="Tutorial.Recommendations" xml:space="preserve"><value>4K、60 FPS：可考虑“平衡”（90%）。&#10;GPU 负载较高的游戏：可尝试“流畅”（80%）。&#10;静态图片或较低帧率内容：可尝试“画质”（100%）。&#10;&#10;最终输出始终保持所选显示器的分辨率。</value></data>
+  <data name="Tutorial.RecommendationBoundary" xml:space="preserve"><value>建议仅依据可用的本机快速测试资料，不保证性能，也不会自动应用。你可以随时调整。教程结束后，DLDR 仍保持关闭。</value></data>
+  <data name="Tutorial.Step" xml:space="preserve"><value>第 {0} / {1} 步</value></data>
+  <data name="Tutorial.Next" xml:space="preserve"><value>下一步</value></data>
+  <data name="Tutorial.Finish" xml:space="preserve"><value>完成</value></data>
+  <data name="Tutorial.Skip" xml:space="preserve"><value>跳过教程</value></data>
+  <data name="Tutorial.OffUnconfirmed" xml:space="preserve"><value>尚未确认原画已经恢复。请先使用紧急停止，再重新打开教程。</value></data>
+  <data name="Tutorial.Unavailable" xml:space="preserve"><value>无法打开教程或保存完成状态。可在设置中再次打开。</value></data>
+  <data name="Control.ObservationInterrupted" xml:space="preserve"><value>状态监测出现问题，已恢复原画。</value></data>
+  <data name="Control.ObservationUnconfirmed" xml:space="preserve"><value>DLDR 已停止，正在确认原画已恢复。</value></data>
+  <data name="ControlWindow.Show" xml:space="preserve"><value>显示 Nera</value></data>
+</root>

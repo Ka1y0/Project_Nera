@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows10.0.22000.0</TargetFramework>
+    <RootNamespace>ChipsStudio.Nera.Control</RootNamespace>
+    <AssemblyName>Nera.Control</AssemblyName>
+    <Version>0.5.0-alpha.2</Version>
+    <FileVersion>0.5.0.0</FileVersion>
+    <InformationalVersion>0.5.0-alpha.2-source-preview</InformationalVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <PlatformTarget>x64</PlatformTarget>
+    <Deterministic>true</Deterministic>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>None</DebugType>
+    <PathMap>$(MSBuildProjectDirectory)=/_/Nera.Control</PathMap>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nera.Localization\Nera.Localization.csproj" />
+  </ItemGroup>
+</Project>

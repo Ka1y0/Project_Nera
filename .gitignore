@@ -1,0 +1,19 @@
+# This repository is source-only. Build and package outside this tree.
+**/bin/
+**/obj/
+/build/
+/dist/
+/artifacts/
+/Data/
+/Logs/
+*.pdb
+*.dmp
+*.log
+*.dll
+*.exe
+*.lib
+*.zip
+runtime.local.json
+*.user
+.vs/
+.vscode/

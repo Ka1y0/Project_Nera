@@ -1,0 +1,69 @@
+name: Source preview checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-preview:
+    runs-on: windows-2025
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-dotnet@67a3573c9a986a3f9c594539f4ab511d57bb3ce9
+        with:
+          dotnet-version: 10.0.400
+      - name: Public source boundary
+        shell: pwsh
+        run: ./tools/Test-SourceBoundary.ps1 -OutputPath "$env:RUNNER_TEMP/boundary.json"
+      - name: English-only public documentation
+        shell: pwsh
+        run: |
+          $documents = @(git ls-files -- '*.md' '*.txt' '*.rst' '*.adoc' '*.tex' '.github/*.yml' '.github/*.yaml')
+          if ($LASTEXITCODE -ne 0) { throw 'Documentation enumeration failed.' }
+          foreach ($document in $documents) {
+            if ($document -match '(?i)(^|/)README[._-](?:zh|cn|tw)' -or
+                (Get-Content -LiteralPath $document -Raw) -match '[\p{IsCJKUnifiedIdeographs}\p{IsCJKUnifiedIdeographsExtensionA}\p{IsCJKCompatibilityIdeographs}]|(?i)README[._-](?:zh|cn|tw)') {
+              throw "Public documentation language residue: $document"
+            }
+          }
+          Write-Output "English-only documentation residue: 0 ($($documents.Count) files checked)."
+      - name: Localization parity
+        shell: pwsh
+        run: ./tools/Test-Localization.ps1
+      - name: Scanner and localization negative tests
+        shell: pwsh
+        run: ./tools/Test-PreviewTools.ps1
+      - name: Managed Release x64 and contract tests
+        shell: pwsh
+        run: ./build-source-preview.ps1 -OutputRoot "$env:RUNNER_TEMP/NeraManagedPreview"
+      - name: Native policy Release x64
+        shell: pwsh
+        run: |
+          cmake -S native-safety -B "$env:GITHUB_WORKSPACE/../NeraNativePreview" -A x64
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          cmake --build "$env:GITHUB_WORKSPACE/../NeraNativePreview" --config Release
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          ctest --test-dir "$env:GITHUB_WORKSPACE/../NeraNativePreview" -C Release --output-on-failure
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+      - name: Source archive, reviewed license boundary and SPDX
+        shell: pwsh
+        run: ./tools/Package-SourcePreview.ps1 -OutputRoot "$env:RUNNER_TEMP/NeraSourcePackage"
+      - name: Validate SPDX 2.3 schema
+        shell: pwsh
+        run: |
+          $schema = "$env:RUNNER_TEMP/spdx-2.3-schema.json"
+          Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/spdx/spdx-spec/v2.3/schemas/spdx-schema.json' -OutFile $schema
+          if ((Get-FileHash -LiteralPath $schema).Hash -ne '239208B7AC287B3CF5D9A9AF23F9D69863971102A5E1587A27A398B43490B89B') { throw 'Schema changed; review required.' }
+          if (-not (Get-Content -Raw "$env:RUNNER_TEMP/NeraSourcePackage/SBOM.spdx.json" | Test-Json -SchemaFile $schema)) { throw 'SPDX validation failed.' }
+      - name: Source-only artifact
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: Nera-source-preview
+          path: ${{ runner.temp }}/NeraSourcePackage/*
+          if-no-files-found: error
+          retention-days: 7

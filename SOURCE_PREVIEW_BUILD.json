@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "releaseKind": "SOURCE_PREVIEW",
+  "previewVersion": "0.5.0-alpha.2",
+  "displayProcessingIncluded": false,
+  "runtimePayloadIncluded": false,
+  "privateAdapterIncluded": false,
+  "platform": "Windows 11 x64",
+  "sdkMajor": 10,
+  "testedSdk": "10.0.400",
+  "sourceDirectories": [
+    "src/Nera.Localization",
+    "src/Nera.Control",
+    "src/Nera.AgentBridge",
+    "src/Nera.Control.Tests",
+    "src/Nera.AgentBridge.Tests"
+  ],
+  "sourceFileExtensions": [".cs", ".csproj", ".resx"],
+  "excludedDirectoryNames": ["bin", "obj", "Data", "Logs"],
+  "excludedFiles": ["src/Nera.Localization/ExperimentalFeatureRegistry.cs"],
+  "projects": [
+    { "path": "src/Nera.Localization/Nera.Localization.csproj", "assembly": "Nera.Localization", "test": false },
+    { "path": "src/Nera.Control/Nera.Control.csproj", "assembly": "Nera.Control", "test": false },
+    { "path": "src/Nera.AgentBridge/Nera.AgentBridge.csproj", "assembly": "Nera.AgentBridge", "test": false },
+    { "path": "src/Nera.Control.Tests/Nera.Control.Tests.csproj", "assembly": "Nera.Control.Tests", "test": true },
+    { "path": "src/Nera.AgentBridge.Tests/Nera.AgentBridge.Tests.csproj", "assembly": "Nera.AgentBridge.Tests", "test": true }
+  ],
+  "excludedProductComponents": [
+    "Nera.App", "Nera.Core", "Nera.RuntimeBroker", "Feature18CompatHost",
+    "WGC capture", "HDR Presenter", "DLSS5 Runtime", "NVIDIA SDK libraries"
+  ],
+  "testBoundary": "Fake display/runtime backends; local uniquely named pipe contracts; one bounded Windows RegisterHotKey register/unregister smoke test. No GUI display, capture, injected input, real Feature18 processing or game launch.",
+  "publicationBoundary": "Build selection is not a license or privacy approval. Root maintainers separately review each copied source file and choose the repository license. No internal history, binaries, user data, Runtime or private adapter may be inferred into the copy set."
+}

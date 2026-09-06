@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <data name="Common.Home" xml:space="preserve"><value>Home</value></data>
+  <data name="Common.Settings" xml:space="preserve"><value>Settings</value></data>
+  <data name="Common.Change" xml:space="preserve"><value>Change</value></data>
+  <data name="Common.Reset" xml:space="preserve"><value>Reset</value></data>
+  <data name="Common.Default" xml:space="preserve"><value>Default</value></data>
+  <data name="Common.Natural" xml:space="preserve"><value>Natural</value></data>
+  <data name="Common.Clear" xml:space="preserve"><value>Clear</value></data>
+  <data name="Common.Cinema" xml:space="preserve"><value>Cinematic</value></data>
+  <data name="Common.Custom" xml:space="preserve"><value>Custom</value></data>
+  <data name="Common.Enabled" xml:space="preserve"><value>Enabled</value></data>
+  <data name="Common.Disabled" xml:space="preserve"><value>Disabled</value></data>
+  <data name="Common.Checking" xml:space="preserve"><value>Checking…</value></data>
+  <data name="Common.Detecting" xml:space="preserve"><value>Detecting…</value></data>
+  <data name="Common.Unavailable" xml:space="preserve"><value>Unavailable</value></data>
+  <data name="Common.NotSet" xml:space="preserve"><value>Not set</value></data>
+  <data name="Common.Unknown" xml:space="preserve"><value>Unknown</value></data>
+  <data name="Common.NotVerified" xml:space="preserve"><value>Not verified</value></data>
+  <data name="Common.NotConnected" xml:space="preserve"><value>Not connected</value></data>
+  <data name="Common.Applied" xml:space="preserve"><value>Changes applied.</value></data>
+  <data name="Common.Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="Common.Back" xml:space="preserve"><value>Back</value></data>
+  <data name="Common.Save" xml:space="preserve"><value>Save</value></data>
+  <data name="Common.ClearBinding" xml:space="preserve"><value>Clear</value></data>
+  <data name="Common.Edit" xml:space="preserve"><value>Change</value></data>
+  <data name="Common.Retry" xml:space="preserve"><value>Retry</value></data>
+  <data name="Common.Close" xml:space="preserve"><value>Close</value></data>
+  <data name="Common.Details" xml:space="preserve"><value>View details</value></data>
+  <data name="App.Navigation" xml:space="preserve"><value>Nera navigation</value></data>
+  <data name="App.StatusMessage" xml:space="preserve"><value>Nera status</value></data>
+  <data name="App.Tagline" xml:space="preserve"><value>DLDR for your entire display</value></data>
+  <data name="App.SettingsSubtitle" xml:space="preserve"><value>Display, Runtime, and controls</value></data>
+  <data name="Display.Title" xml:space="preserve"><value>Display</value></data>
+  <data name="Display.Target" xml:space="preserve"><value>Target display</value></data>
+  <data name="Display.Change" xml:space="preserve"><value>Change display</value></data>
+  <data name="Display.Checking" xml:space="preserve"><value>Checking displays…</value></data>
+  <data name="Display.Detecting" xml:space="preserve"><value>Detecting available displays…</value></data>
+  <data name="Display.SingleOnly" xml:space="preserve"><value>One display is processed at a time. Selecting a display never binds Nera to an app.</value></data>
+  <data name="Display.OpenWindows" xml:space="preserve"><value>Open Windows display settings</value></data>
+  <data name="Display.NoAutomaticHdr" xml:space="preserve"><value>Nera never changes Windows HDR automatically.</value></data>
+  <data name="Display.NoSelection" xml:space="preserve"><value>No display selected</value></data>
+  <data name="Display.Select" xml:space="preserve"><value>Select a display</value></data>
+  <data name="Display.Disconnected" xml:space="preserve"><value>The display is disconnected.</value></data>
+  <data name="Display.RefreshUnknown" xml:space="preserve"><value>Refresh rate unavailable</value></data>
+  <data name="Display.HdrOff" xml:space="preserve"><value>HDR is off</value></data>
+  <data name="Display.NoHdr" xml:space="preserve"><value>HDR is not supported</value></data>
+  <data name="Dldr.Toggle" xml:space="preserve"><value>DLDR switch</value></data>
+  <data name="Dldr.ToggleHelp" xml:space="preserve"><value>Global DLDR turns ON only after a successfully processed frame is displayed.</value></data>
+  <data name="Dldr.FirstFrameNotice" xml:space="preserve"><value>DLDR stays off until the first-frame checks pass.</value></data>
+  <data name="Dldr.Checking" xml:space="preserve"><value>Checking requirements…</value></data>
+  <data name="Dldr.Starting" xml:space="preserve"><value>Starting…</value></data>
+  <data name="Dldr.Preparing" xml:space="preserve"><value>Preparing the display…</value></data>
+  <data name="Dldr.Restoring" xml:space="preserve"><value>Restoring the original display…</value></data>
+  <data name="Dldr.Switching" xml:space="preserve"><value>Switching display mode…</value></data>
+  <data name="Dldr.SwitchingWait" xml:space="preserve"><value>Switching the display. Please wait.</value></data>
+  <data name="Dldr.SafeSwitching" xml:space="preserve"><value>Safely switching processing state. Please wait.</value></data>
+  <data name="Dldr.TemporaryBypass" xml:space="preserve"><value>Temporarily bypassed</value></data>
+  <data name="Dldr.ParameterReady" xml:space="preserve"><value>Live controls are available when the display is stable.</value></data>
+  <data name="Hdr.Checking" xml:space="preserve"><value>Checking Windows HDR…</value></data>
+  <data name="Hdr.Required" xml:space="preserve"><value>Enable HDR in Windows first.</value></data>
+  <data name="Recipe.Title" xml:space="preserve"><value>Visual Recipe</value></data>
+  <data name="Recipe.Current" xml:space="preserve"><value>Current visual recipe</value></data>
+  <data name="Recipe.CustomHelp" xml:space="preserve"><value>The current parameters were adjusted manually. This is not another fixed recipe.</value></data>
+  <data name="Recipe.Reset" xml:space="preserve"><value>Restore visual recipe</value></data>
+  <data name="Recipe.LoadingDefaults" xml:space="preserve"><value>Reading recipe defaults…</value></data>
+  <data name="Recipe.LocalEvidence" xml:space="preserve"><value>Based on local Runtime 310.8 testing. Human blind comparison is still pending.</value></data>
+  <data name="Parameter.EffectStrength" xml:space="preserve"><value>Effect Strength</value></data>
+  <data name="Parameter.EffectHelp" xml:space="preserve"><value>Adjusts the final DLDR effect. Neural enhancement is controlled separately below.</value></data>
+  <data name="Parameter.Intensity" xml:space="preserve"><value>Neural Enhancement Strength</value></data>
+  <data name="Parameter.IntensityHelp" xml:space="preserve"><value>Controls overall neural enhancement within the tested range of 0.00–1.00.</value></data>
+  <data name="Parameter.Style" xml:space="preserve"><value>DLSS5 Style</value></data>
+  <data name="Parameter.StyleHelp" xml:space="preserve"><value>Native styles verified on the current Runtime.</value></data>
+  <data name="Parameter.Tone" xml:space="preserve"><value>Local Tone</value></data>
+  <data name="Parameter.ToneHelp" xml:space="preserve"><value>Adjusts how strongly the model changes local brightness and contrast.</value></data>
+  <data name="Parameter.Structure" xml:space="preserve"><value>Local Detail</value></data>
+  <data name="Parameter.StructureHelp" xml:space="preserve"><value>Adjusts the enhancement of textures and local structure.</value></data>
+  <data name="Parameter.AutoMask" xml:space="preserve"><value>Auto Mask</value></data>
+  <data name="Parameter.AutoMaskHelp" xml:space="preserve"><value>Native parameter with a verified output effect. The Runtime's exact mask semantics are not publicly documented.</value></data>
+  <data name="Parameter.ColorTransfer" xml:space="preserve"><value>Color Transfer</value></data>
+  <data name="Parameter.Highlight" xml:space="preserve"><value>Highlight Protection</value></data>
+  <data name="Parameter.Shadow" xml:space="preserve"><value>Shadow Protection</value></data>
+  <data name="Parameter.Temporal" xml:space="preserve"><value>Temporal Stability</value></data>
+  <data name="Parameter.Live" xml:space="preserve"><value>Live adjustments</value></data>
+  <data name="Parameter.ApplyHelp" xml:space="preserve"><value>Changes apply immediately after the processing pipeline confirms them.</value></data>
+  <data name="Parameter.HdrHelp" xml:space="preserve"><value>Preserves HDR highlights and color. These controls do not change the native DLSS5 style.</value></data>
+  <data name="Performance.Title" xml:space="preserve"><value>Performance</value></data>
+  <data name="Performance.Quality" xml:space="preserve"><value>Quality</value></data>
+  <data name="Performance.Balanced" xml:space="preserve"><value>Balanced</value></data>
+  <data name="Performance.Smooth" xml:space="preserve"><value>Smooth</value></data>
+  <data name="Performance.DimensionsInitial" xml:space="preserve"><value>Quality · Neural input 3840 × 2160</value></data>
+  <data name="Hud.Title" xml:space="preserve"><value>Performance Overlay</value></data>
+  <data name="Hud.Help" xml:space="preserve"><value>Shows system and pipeline metrics above the final output.</value></data>
+  <data name="Hotkey.Title" xml:space="preserve"><value>Hotkeys</value></data>
+  <data name="Hotkey.Global" xml:space="preserve"><value>Global hotkeys</value></data>
+  <data name="Hotkey.ToggleDldr" xml:space="preserve"><value>Toggle DLDR</value></data>
+  <data name="Hotkey.ToggleHud" xml:space="preserve"><value>Toggle performance overlay</value></data>
+  <data name="Hotkey.ToggleApp" xml:space="preserve"><value>Show / hide Nera</value></data>
+  <data name="Hotkey.Emergency" xml:space="preserve"><value>Emergency stop</value></data>
+  <data name="Hotkey.HoldOriginal" xml:space="preserve"><value>Hold Original</value></data>
+  <data name="Hotkey.HoldUnavailable" xml:space="preserve"><value>A global hold gesture is not implemented.</value></data>
+  <data name="Hotkey.Waiting" xml:space="preserve"><value>Waiting for registration status</value></data>
+  <data name="Hotkey.Restore" xml:space="preserve"><value>Restore recommended hotkeys</value></data>
+  <data name="Hotkey.RecordTitle" xml:space="preserve"><value>Change hotkey</value></data>
+  <data name="Hotkey.RecordHint" xml:space="preserve"><value>Press a keyboard shortcut. Esc cancels. Mouse and controller input are not accepted.</value></data>
+  <data name="Hotkey.RecordWaiting" xml:space="preserve"><value>Waiting for a keyboard shortcut…</value></data>
+  <data name="Hotkey.RecordLostFocus" xml:space="preserve"><value>Recording canceled because Nera lost focus.</value></data>
+  <data name="Hotkey.Invalid" xml:space="preserve"><value>The shortcut is invalid.</value></data>
+  <data name="Hotkey.KeyboardOnly" xml:space="preserve"><value>Only keyboard shortcuts are supported.</value></data>
+  <data name="Hotkey.ModifierRequired" xml:space="preserve"><value>Use a modifier key plus another key.</value></data>
+  <data name="Hotkey.Reserved" xml:space="preserve"><value>This shortcut is reserved by Windows.</value></data>
+  <data name="Hotkey.InternalDuplicate" xml:space="preserve"><value>Another Nera action already uses this shortcut.</value></data>
+  <data name="Hotkey.Conflict" xml:space="preserve"><value>Another app is using this shortcut.</value></data>
+  <data name="Hotkey.Registered" xml:space="preserve"><value>Hotkey registered.</value></data>
+  <data name="Hotkey.FallbackSelected" xml:space="preserve"><value>The preferred shortcut is unavailable. An available alternative is in use.</value></data>
+  <data name="Hotkey.PreviousPreserved" xml:space="preserve"><value>The shortcut was not changed. The previous shortcut still works.</value></data>
+  <data name="Hotkey.Cleared" xml:space="preserve"><value>Hotkey cleared.</value></data>
+  <data name="Hotkey.NotRegistered" xml:space="preserve"><value>Hotkey not registered.</value></data>
+  <data name="Hotkey.RegistrationFailed" xml:space="preserve"><value>Hotkey registration failed.</value></data>
+  <data name="Hotkey.SaveFailed" xml:space="preserve"><value>The shortcut was not saved. The previous shortcut is unchanged.</value></data>
+  <data name="Hotkey.CleanupFailed" xml:space="preserve"><value>Hotkey cleanup failed. The previous shortcut is unchanged.</value></data>
+  <data name="Hotkey.HoldUnsupported" xml:space="preserve"><value>Hold Original is not implemented.</value></data>
+  <data name="Hotkey.FixedEmergency" xml:space="preserve"><value>The emergency fallback cannot be changed.</value></data>
+  <data name="Hotkey.FixedEmergencyUnavailable" xml:space="preserve"><value>The emergency fallback could not be registered. DLDR will remain off.</value></data>
+  <data name="Hotkey.PreferencesInvalid" xml:space="preserve"><value>Hotkey settings could not be read. The original file was preserved.</value></data>
+  <data name="Hotkey.RecommendedRestored" xml:space="preserve"><value>Recommended hotkeys restored.</value></data>
+  <data name="Hotkey.FallbackLabel" xml:space="preserve"><value>Fixed fallback: Ctrl + Alt + Backspace</value></data>
+  <data name="Hotkey.Summary" xml:space="preserve"><value>Registered {0}/{1}. Emergency fallback: {2}.</value></data>
+  <data name="Ai.Title" xml:space="preserve"><value>Agent control</value></data>
+  <data name="Ai.Allow" xml:space="preserve"><value>Allow local agents to control Nera</value></data>
+  <data name="Ai.DefaultOff" xml:space="preserve"><value>Off by default</value></data>
+  <data name="Ai.LocalOnly" xml:space="preserve"><value>Current-user local access only. Each permission is controlled separately.</value></data>
+  <data name="Ai.ReadState" xml:space="preserve"><value>Read status</value></data>
+  <data name="Ai.ToggleDldr" xml:space="preserve"><value>Toggle DLDR</value></data>
+  <data name="Ai.Display" xml:space="preserve"><value>Select display and visual settings</value></data>
+  <data name="Ai.Hud" xml:space="preserve"><value>Control performance overlay</value></data>
+  <data name="Ai.Diagnostics" xml:space="preserve"><value>Run diagnostics</value></data>
+  <data name="Runtime.Title" xml:space="preserve"><value>DLSS5 Runtime</value></data>
+  <data name="Runtime.Required" xml:space="preserve"><value>Connect a DLSS5 Runtime</value></data>
+  <data name="Runtime.AutoSearch" xml:space="preserve"><value>Nera searches known local locations first.</value></data>
+  <data name="Runtime.Choose" xml:space="preserve"><value>Choose Runtime folder</value></data>
+  <data name="Runtime.PathMissing" xml:space="preserve"><value>Path · Not found</value></data>
+  <data name="Runtime.VersionUnknown" xml:space="preserve"><value>Version · Unknown</value></data>
+  <data name="Runtime.HashUnverified" xml:space="preserve"><value>SHA-256 · Not verified</value></data>
+  <data name="Runtime.SignatureUnverified" xml:space="preserve"><value>Signature · Not verified</value></data>
+  <data name="Runtime.AdapterChecking" xml:space="preserve"><value>Runtime adapter · Checking</value></data>
+  <data name="Runtime.NotConnected" xml:space="preserve"><value>DLSS5 Runtime · Not connected</value></data>
+  <data name="Runtime.DlssDisconnected" xml:space="preserve"><value>DLSS5 · Not connected</value></data>
+  <data name="Diagnostics.Title" xml:space="preserve"><value>Advanced diagnostics</value></data>
+  <data name="Diagnostics.Refresh" xml:space="preserve"><value>Refresh diagnostics</value></data>
+  <data name="Diagnostics.Help" xml:space="preserve"><value>Inspect display, capture, Feature 18, DLDR, and presentation state separately.</value></data>
+  <data name="Diagnostics.Summary" xml:space="preserve"><value>Diagnostic summary</value></data>
+  <data name="Diagnostics.Empty" xml:space="preserve"><value>No diagnostic data yet</value></data>
+  <data name="Diagnostics.PresetInert" xml:space="preserve"><value>Preset · No effect observed on this Runtime</value></data>
+  <data name="Diagnostics.UiUnknown" xml:space="preserve"><value>UI Correction · The interface is not qualified; no control is available</value></data>
+  <data name="About.Title" xml:space="preserve"><value>About</value></data>
+  <data name="About.Nera" xml:space="preserve"><value>About Nera</value></data>
+  <data name="About.Version" xml:space="preserve"><value>Nera · 0.4.1 Global Display Alpha</value></data>
+  <data name="About.Portable" xml:space="preserve"><value>Portable · HDR only · FP16 linear scRGB</value></data>
+  <data name="About.Boundary" xml:space="preserve"><value>No installation, drivers, or services. NVIDIA Runtime files are not modified.</value></data>
+  <data name="Language.Title" xml:space="preserve"><value>Language</value></data>
+  <data name="Language.FollowSystem" xml:space="preserve"><value>Follow system</value></data>
+  <data name="Language.RestoreSystem" xml:space="preserve"><value>Follow system again</value></data>
+  <data name="Language.Help" xml:space="preserve"><value>Language changes apply immediately. Visual settings are unchanged.</value></data>
+  <data name="Language.EnUs" xml:space="preserve"><value>English</value></data>
+  <data name="Language.ZhTw" xml:space="preserve"><value>繁體中文</value></data>
+  <data name="Language.ZhCn" xml:space="preserve"><value>简体中文</value></data>
+  <data name="Language.SaveFailed" xml:space="preserve"><value>The language preference could not be saved. The previous preference is unchanged.</value></data>
+  <data name="Parameter.NeuralTitle" xml:space="preserve"><value>DLSS5 Neural Rendering</value></data>
+  <data name="Parameter.HdrTitle" xml:space="preserve"><value>HDR / DLDR</value></data>
+  <data name="Experiment.Title" xml:space="preserve"><value>Experimental features</value></data>
+  <data name="Experiment.Intro" xml:space="preserve"><value>These interfaces and Nera experiments may be ineffective, unstable, or useful only with specific content.</value></data>
+  <data name="Experiment.ReadOnly" xml:space="preserve"><value>Evidence registry — read only</value></data>
+  <data name="Experiment.SafeBoundary" xml:space="preserve"><value>Unqualified experiments cannot be enabled here. This page does not change visual settings or send Runtime parameters.</value></data>
+  <data name="Experiment.Facts" xml:space="preserve"><value>Verified facts: {0}</value></data>
+  <data name="Experiment.Hypothesis" xml:space="preserve"><value>Hypothesis, not a verified guarantee: {0}</value></data>
+  <data name="Experiment.Risk" xml:space="preserve"><value>Limitations: {0}</value></data>
+  <data name="Experiment.Source" xml:space="preserve"><value>Source: {0} · Runtime {1}</value></data>
+  <data name="Experiment.Lifecycle" xml:space="preserve"><value>Recreation: {0} · Safe default: {1}</value></data>
+  <data name="Experiment.PublicEvidence" xml:space="preserve"><value>Public interoperability research and Nera's local tests; not an official NVIDIA contract</value></data>
+  <data name="Experiment.NeraSource" xml:space="preserve"><value>Nera design and input-contract review</value></data>
+  <data name="Experiment.Effective" xml:space="preserve"><value>Native interface — verified output effect</value></data>
+  <data name="Experiment.SemanticsUnknown" xml:space="preserve"><value>Native interface — effect verified, exact semantics unconfirmed</value></data>
+  <data name="Experiment.Conditional" xml:space="preserve"><value>Native interface — conditional behavior not qualified</value></data>
+  <data name="Experiment.Inert" xml:space="preserve"><value>Native interface — no effect observed on this Runtime</value></data>
+  <data name="Experiment.Unknown" xml:space="preserve"><value>Native interface — status unknown</value></data>
+  <data name="Experiment.Nera" xml:space="preserve"><value>Nera experiment — not implemented</value></data>
+  <data name="Experiment.Removed" xml:space="preserve"><value>Removed from the product</value></data>
+  <data name="Experiment.SkinName" xml:space="preserve"><value>Skin Detail</value></data>
+  <data name="Experiment.SkinFacts" xml:space="preserve"><value>The interface exists. Controlled local tests on Runtime 310.8 did not show a repeatable output difference.</value></data>
+  <data name="Experiment.SkinHypothesis" xml:space="preserve"><value>The name suggests skin-region structure control; the exact mask and applicability are unconfirmed.</value></data>
+  <data name="Experiment.SkinRisk" xml:space="preserve"><value>Not exposed as an editable product control. API acceptance is not evidence of a visible effect.</value></data>
+  <data name="Experiment.PresetName" xml:space="preserve"><value>Preset</value></data>
+  <data name="Experiment.PresetFacts" xml:space="preserve"><value>The known discrete values were accepted, but local single-variable tests found no effective neural-output change.</value></data>
+  <data name="Experiment.PresetHypothesis" xml:space="preserve"><value>May be a creation-time hint. It is a different field from Style.</value></data>
+  <data name="Experiment.PresetRisk" xml:space="preserve"><value>Hidden from normal controls. Switching it must not be described as switching models.</value></data>
+  <data name="Experiment.UiName" xml:space="preserve"><value>UI Correction</value></data>
+  <data name="Experiment.UiFacts" xml:space="preserve"><value>Public research names this interface. A reliable input-resource ABI has not been qualified for Nera global display mode.</value></data>
+  <data name="Experiment.UiHypothesis" xml:space="preserve"><value>May require valid UI, UIAlpha, and backbuffer inputs supplied by the renderer.</value></data>
+  <data name="Experiment.UiRisk" xml:space="preserve"><value>Disabled. No semantic UI mask is inferred, generated, or sent by this page.</value></data>
+  <data name="Experiment.AutoFacts" xml:space="preserve"><value>This native parameter changes the current Runtime's output. The Runtime generates an automatic mask of some kind.</value></data>
+  <data name="Experiment.AutoHypothesis" xml:space="preserve"><value>It may relate to people or skin, but that interpretation is not verified and is not a product promise.</value></data>
+  <data name="Experiment.AutoRisk" xml:space="preserve"><value>The stable Auto Mask control remains available. It is not Nera's removed heuristic UI Protection.</value></data>
+  <data name="Experiment.HoldFacts" xml:space="preserve"><value>RegisterHotKey does not provide the global key-up contract needed for a reliable hold gesture.</value></data>
+  <data name="Experiment.HoldHypothesis" xml:space="preserve"><value>A future design must prove safe press/release behavior without interfering with app input.</value></data>
+  <data name="Experiment.HoldRisk" xml:space="preserve"><value>Not implemented or registered. No new keyboard hook, mouse hook, or input forwarding is introduced.</value></data>
+  <data name="Experiment.RecreateYes" xml:space="preserve"><value>Feature recreation required</value></data>
+  <data name="Experiment.RecreateNo" xml:space="preserve"><value>No; evaluate-time control</value></data>
+  <data name="Experiment.RecreateUnknown" xml:space="preserve"><value>Not qualified</value></data>
+  <data name="Experiment.Off" xml:space="preserve"><value>Off; no automatic activation</value></data>
+  <data name="Experiment.ExistingValue" xml:space="preserve"><value>Current user value is preserved</value></data>
+  <data name="Ui.ControlNotReady" xml:space="preserve"><value>Nera controls are not ready</value></data>
+  <data name="Ui.KeepOffDetails" xml:space="preserve"><value>DLDR remains off. Check advanced diagnostics.</value></data>
+  <data name="Ui.AgentUnavailable" xml:space="preserve"><value>Local agent access is unavailable</value></data>
+  <data name="Ui.AgentUnavailableHelp" xml:space="preserve"><value>The GUI is still available. AgentBridge cannot connect; check advanced diagnostics.</value></data>
+  <data name="Ui.CleanupUnconfirmed" xml:space="preserve"><value>Control-session release is not yet confirmed.</value></data>
+  <data name="Ui.StateUnavailable" xml:space="preserve"><value>Status unavailable. DLDR cannot be shown as enabled.</value></data>
+  <data name="Ui.RuntimeStateUnavailable" xml:space="preserve"><value>DLSS5 · Status unavailable</value></data>
+  <data name="Ui.StateReadFailed" xml:space="preserve"><value>Could not read status</value></data>
+  <data name="Ui.StopRequested" xml:space="preserve"><value>Emergency stop requested. Restoration is not yet confirmed.</value></data>
+  <data name="Ui.ControlDisconnected" xml:space="preserve"><value>Controls are disconnected</value></data>
+  <data name="Ui.NotExecuted" xml:space="preserve"><value>No action was taken.</value></data>
+  <data name="Ui.EmergencyUnconfirmed" xml:space="preserve"><value>Emergency stop is not confirmed</value></data>
+  <data name="Ui.EmergencyUnconfirmedHelp" xml:space="preserve"><value>The ON indicator is cleared. Original output restoration is not yet confirmed.</value></data>
+  <data name="Ui.StateChanged" xml:space="preserve"><value>The state changed. Check current settings and retry.</value></data>
+  <data name="Ui.Closing" xml:space="preserve"><value>Stopping…</value></data>
+  <data name="Ui.HdrDisabled" xml:space="preserve"><value>Not enabled</value></data>
+  <data name="Ui.AdvancedColor" xml:space="preserve"><value>{0} · Advanced Color</value></data>
+  <data name="Ui.HdrEnableTarget" xml:space="preserve"><value>Enable HDR for this display in Windows first.</value></data>
+  <data name="Ui.AdapterVersion" xml:space="preserve"><value>Runtime adapter · {0}</value></data>
+  <data name="Ui.RuntimeVersion" xml:space="preserve"><value>DLSS5 Runtime · {0}</value></data>
+  <data name="Ui.DisplayAdapter" xml:space="preserve"><value>{0} · Adapter {1}</value></data>
+  <data name="Ui.NeuralDimensions" xml:space="preserve"><value>{0} · Neural input {1} × {2} · Output {3} × {4}</value></data>
+  <data name="Ui.NeuralScale" xml:space="preserve"><value>{0} · Neural input {1}%</value></data>
+  <data name="Ui.RuntimePath" xml:space="preserve"><value>Path · {0}</value></data>
+  <data name="Ui.FileVersion" xml:space="preserve"><value>Version · {0}</value></data>
+  <data name="Ui.Signature" xml:space="preserve"><value>Signature · {0} · {1}</value></data>
+  <data name="Ui.Valid" xml:space="preserve"><value>Valid</value></data>
+  <data name="Ui.Invalid" xml:space="preserve"><value>Invalid</value></data>
+  <data name="Ui.RecipeDefaults" xml:space="preserve"><value>Recipe defaults · Style {0} · Neural strength {1:0.00} · Local tone {2:0.00} · Local detail {3:0.00}</value></data>
+  <data name="Ui.OverlayBypass" xml:space="preserve"><value>Overlay compatibility bypass</value></data>
+  <data name="Ui.OverlayBypassHelp" xml:space="preserve"><value>Showing the original display. Processing resumes after the overlay closes and a fresh frame is ready. You can also turn DLDR off.</value></data>
+  <data name="Ui.DldrEnabled" xml:space="preserve"><value>DLDR is enabled</value></data>
+  <data name="Ui.FrameConfirmed" xml:space="preserve"><value>Frame {0} passed processing and presentation checks.</value></data>
+  <data name="Ui.DldrStarting" xml:space="preserve"><value>Enabling DLDR</value></data>
+  <data name="Ui.WaitActualFrame" xml:space="preserve"><value>Waiting for the first processed frame. Ordinary Windows output remains visible.</value></data>
+  <data name="Ui.PreparingPipeline" xml:space="preserve"><value>Checking the display and preparing processing.</value></data>
+  <data name="Ui.Restoring" xml:space="preserve"><value>Restoring the original display</value></data>
+  <data name="Ui.Releasing" xml:space="preserve"><value>Safely releasing presentation, capture, and processing.</value></data>
+  <data name="Ui.DldrFailed" xml:space="preserve"><value>DLDR could not be enabled</value></data>
+  <data name="Ui.NoFalseOn" xml:space="preserve"><value>DLDR will not show ON. Details are in advanced diagnostics.</value></data>
+  <data name="Ui.DldrDisabled" xml:space="preserve"><value>DLDR is off</value></data>
+  <data name="Ui.OriginalWindows" xml:space="preserve"><value>Showing ordinary Windows output.</value></data>
+  <data name="Ui.DisplayUnavailable" xml:space="preserve"><value>Display unavailable</value></data>
+  <data name="Ui.SelectCapturable" xml:space="preserve"><value>Select an available display in Settings.</value></data>
+  <data name="Ui.EnableWindowsHdr" xml:space="preserve"><value>Enable Windows HDR first</value></data>
+  <data name="Ui.NoWindowsChanges" xml:space="preserve"><value>Nera does not change Windows display settings automatically.</value></data>
+  <data name="Ui.EditFailed" xml:space="preserve"><value>Adjustment did not complete</value></data>
+  <data name="Ui.EditRetry" xml:space="preserve"><value>Parameters could not be applied. Please retry.</value></data>
+  <data name="Ui.ScaleChanging" xml:space="preserve"><value>Safely switching performance mode…</value></data>
+  <data name="Ui.ParameterPending" xml:space="preserve"><value>Applying changes and waiting for frame confirmation…</value></data>
+  <data name="Ui.DiagnosticsRefreshed" xml:space="preserve"><value>Diagnostics refreshed</value></data>
+  <data name="Ui.DiagnosticsPrivacy" xml:space="preserve"><value>Technical information contains only Nera's own state.</value></data>
+  <data name="Ui.WindowsSettingsFailed" xml:space="preserve"><value>Could not open display settings</value></data>
+  <data name="Ui.WindowsSettingsRetry" xml:space="preserve"><value>Windows display settings could not be opened. Try again later.</value></data>
+  <data name="Ai.Cli" xml:space="preserve"><value>Command line</value></data>
+  <data name="Ai.Orchestrator" xml:space="preserve"><value>Orchestrator</value></data>
+  <data name="Ai.LocalAgent" xml:space="preserve"><value>Local agent</value></data>
+  <data name="Ai.ConnectionSummary" xml:space="preserve"><value>{0} is connecting to Nera through the current-user local interface.</value></data>
+  <data name="Ai.ConnectionHelp" xml:space="preserve"><value>AgentBridge {0}. Only allow a connection you just started. Individual agent permissions still apply.</value></data>
+  <data name="Ai.ConnectionSession" xml:space="preserve"><value>Always allow applies only to this Nera session. No network port is opened.</value></data>
+  <data name="Ai.ConnectionTitle" xml:space="preserve"><value>Allow this local AgentBridge connection?</value></data>
+  <data name="Ai.AlwaysAllow" xml:space="preserve"><value>Always allow this session</value></data>
+  <data name="Ai.AllowOnce" xml:space="preserve"><value>Allow once</value></data>
+  <data name="Ai.Deny" xml:space="preserve"><value>Deny</value></data>
+  <data name="Ai.ConnectionAccessible" xml:space="preserve"><value>Local agent connection confirmation</value></data>
+  <data name="Ai.Enabled" xml:space="preserve"><value>Agent control is enabled</value></data>
+  <data name="Ai.Disabled" xml:space="preserve"><value>Agent control is disabled</value></data>
+  <data name="Ai.SaveFailed" xml:space="preserve"><value>Agent control settings were not saved</value></data>
+  <data name="Ai.PermissionScope" xml:space="preserve"><value>Permissions apply only to the current user's local AgentBridge.</value></data>
+  <data name="Ui.BackendDisconnected" xml:space="preserve"><value>The control backend is disconnected</value></data>
+  <data name="State.OverlayHint" xml:space="preserve"><value>Showing the original display while the overlay is open; processing resumes after it closes.</value></data>
+  <data name="State.WarmHint" xml:space="preserve"><value>Showing ordinary Windows output. The processing host remains on standby.</value></data>
+  <data name="State.ProcessingHint" xml:space="preserve"><value>The entire display is processed by DLSS5 and DLDR, then presented in FP16 scRGB.</value></data>
+  <data name="State.CheckDisplay" xml:space="preserve"><value>Checking the target display</value></data>
+  <data name="State.CheckGpu" xml:space="preserve"><value>Verifying the RTX GPU</value></data>
+  <data name="State.Stopping" xml:space="preserve"><value>Stopping presentation, capture, and processing</value></data>
+  <data name="State.OriginalHdr" xml:space="preserve"><value>Showing the original Windows HDR display</value></data>
+  <data name="State.FailedRestored" xml:space="preserve"><value>DLDR stopped. Ordinary Windows output is confirmed.</value></data>
+  <data name="State.CleanupPending" xml:space="preserve"><value>DLDR is off, but background cleanup is not complete</value></data>
+  <data name="State.Ready" xml:space="preserve"><value>Ready. Click to enable.</value></data>
+  <data name="State.RuntimeMissing" xml:space="preserve"><value>Runtime not connected</value></data>
+  <data name="State.RuntimeChecking" xml:space="preserve"><value>Checking Runtime</value></data>
+  <data name="State.RuntimeVerified" xml:space="preserve"><value>Runtime verified</value></data>
+  <data name="State.ReadyShort" xml:space="preserve"><value>Ready</value></data>
+  <data name="State.Original" xml:space="preserve"><value>Original</value></data>
+  <data name="State.Problem" xml:space="preserve"><value>Problem detected</value></data>
+  <data name="State.FirstFramePending" xml:space="preserve"><value>First-frame check pending</value></data>
+  <data name="Recipe.Description" xml:space="preserve"><value>{0} · A Nera recipe with neural-rendering and HDR parameters</value></data>
+  <data name="Recipe.CustomDescription" xml:space="preserve"><value>Custom · Parameters were adjusted manually</value></data>
+  <data name="Recipe.Summary" xml:space="preserve"><value>Recipe · {0}
+Effect strength · {1}
+Performance · {2}
+Performance overlay · {3}</value></data>
+  <data name="Runtime.ConnectedVersion" xml:space="preserve"><value>Experimental Runtime {0} connected</value></data>
+  <data name="Runtime.Checking" xml:space="preserve"><value>Checking DLSS5 Runtime</value></data>
+  <data name="Runtime.Verified" xml:space="preserve"><value>Version, SHA-256, and signature checks passed.</value></data>
+  <data name="Runtime.Unsupported" xml:space="preserve"><value>This Runtime version has not been verified.</value></data>
+  <data name="Runtime.ManualFallback" xml:space="preserve"><value>If automatic discovery finds nothing, choose a Runtime folder explicitly.</value></data>
+  <data name="State.ActionRestored" xml:space="preserve"><value>The action did not complete. The original display is restored.</value></data>
+  <data name="State.ActionUnaffected" xml:space="preserve"><value>The action did not complete. Ordinary Windows output was not affected.</value></data>
+  <data name="State.MessageRestored" xml:space="preserve"><value>{0} Original display restored.</value></data>
+  <data name="Osd.Window" xml:space="preserve"><value>Nera DLDR status</value></data>
+  <data name="Osd.Failed" xml:space="preserve"><value>Couldn’t enable</value></data>
+  <data name="Osd.Restored" xml:space="preserve"><value>Original display restored</value></data>
+  <data name="Error.OPERATION_FAILED" xml:space="preserve"><value>The action could not be completed. Check diagnostics and retry.</value></data>
+  <data name="Error.INVALID_ARGUMENT" xml:space="preserve"><value>The command arguments are invalid.</value></data>
+  <data name="Error.PERMISSION_DENIED" xml:space="preserve"><value>You do not have permission to perform this action.</value></data>
+  <data name="Error.STATE_CHANGED" xml:space="preserve"><value>Nera's state changed. Refresh and retry.</value></data>
+  <data name="Error.RUNTIME_MISSING" xml:space="preserve"><value>No usable DLSS5 Runtime was found.</value></data>
+  <data name="Error.RUNTIME_UNVERIFIED" xml:space="preserve"><value>This DLSS5 Runtime has not passed identity checks.</value></data>
+  <data name="Error.SERVICE_UNAVAILABLE" xml:space="preserve"><value>Nera is not running or is temporarily unavailable.</value></data>
+  <data name="Error.PROTOCOL_MISMATCH" xml:space="preserve"><value>Nera and AgentBridge use incompatible protocol versions.</value></data>
+  <data name="Error.MALFORMED_RESPONSE" xml:space="preserve"><value>Nera returned an unrecognized response.</value></data>
+  <data name="Error.RESPONSE_TOO_LARGE" xml:space="preserve"><value>The control message exceeds the size limit.</value></data>
+  <data name="Error.TIMEOUT" xml:space="preserve"><value>The Nera request timed out.</value></data>
+  <data name="Error.CANCELLED" xml:space="preserve"><value>The Nera request was canceled.</value></data>
+  <data name="Error.HDR_SYSTEM_DISABLED" xml:space="preserve"><value>Enable HDR in Windows before turning on DLDR.</value></data>
+  <data name="Error.DISPLAY_UNAVAILABLE" xml:space="preserve"><value>The selected display is unavailable.</value></data>
+  <data name="Error.DISPLAY_REQUIRED" xml:space="preserve"><value>Select a display first.</value></data>
+  <data name="Error.RTX_GPU_REQUIRED" xml:space="preserve"><value>A supported RTX GPU is required.</value></data>
+  <data name="Error.FAIL_SAFE_FAILED" xml:space="preserve"><value>Restoration is not yet confirmed. Use emergency stop and check diagnostics.</value></data>
+  <data name="Hotkey.Recording" xml:space="preserve"><value>Recording a hotkey</value></data>
+  <data name="Cli.Error" xml:space="preserve"><value>Error {0}: {1}</value></data>
+  <data name="Cli.Success" xml:space="preserve"><value>Success · Revision {0} · {1}</value></data>
+  <data name="Cli.UnknownCommand" xml:space="preserve"><value>Unknown command: {0}</value></data>
+  <data name="Cli.OptionalJson" xml:space="preserve"><value>{0} accepts only the optional --json argument.</value></data>
+  <data name="Cli.DisplayArgument" xml:space="preserve"><value>display requires a display number starting at 1 or an exact display ID.</value></data>
+  <data name="Cli.DisplayRange" xml:space="preserve"><value>The display number must be between 1 and {0}.</value></data>
+  <data name="Cli.DisplayMissing" xml:space="preserve"><value>The display ID is not in the current display list.</value></data>
+  <data name="Cli.OnOff" xml:space="preserve"><value>{0} requires on or off.</value></data>
+  <data name="Cli.Enum" xml:space="preserve"><value>{0} requires one of: {1}.</value></data>
+  <data name="Cli.StrengthArgument" xml:space="preserve"><value>strength requires an integer from 0 to 100.</value></data>
+  <data name="Cli.SelfTestArgument" xml:space="preserve"><value>self-test accepts at most one scope argument.</value></data>
+  <data name="Cli.NrArgument" xml:space="preserve"><value>nr requires style(0/1/2), intensity, local tone, local detail, skin structure, and auto mask(on/off).</value></data>
+  <data name="Cli.DldrArgument" xml:space="preserve"><value>dldr-parameters requires highlight, shadow, color transfer, and temporal response.</value></data>
+  <data name="Cli.StyleArgument" xml:space="preserve"><value>Style must be 0, 1, or 2. Auto Mask must be on or off.</value></data>
+  <data name="Cli.FiniteArgument" xml:space="preserve"><value>Parameters must be finite numbers.</value></data>
+  <data name="Cli.Status" xml:space="preserve"><value>DLDR {0} · {1} · Revision {2}</value></data>
+  <data name="Cli.Display" xml:space="preserve"><value>Display: {0} · {1} × {2} · {3:0.#} Hz · HDR {4}</value></data>
+  <data name="Cli.Visual" xml:space="preserve"><value>Recipe: {0} · Effect strength {1} · {2} (Neural {3}%) · Neural strength {4:0.00} · Overlay {5}</value></data>
+  <data name="Cli.Ownership" xml:space="preserve"><value>Owned Broker: {0} · Broker ready: {1} · OFF gate: {2}</value></data>
+  <data name="Cli.DisplayCount" xml:space="preserve"><value>Displays: {0}</value></data>
+  <data name="Cli.Performance" xml:space="preserve"><value>FPS {0} · Average {1} · 1% Low {2}</value></data>
+  <data name="Cli.Pipeline" xml:space="preserve"><value>Capture {0} · Process {1} · Present {2} · Dropped {3}</value></data>
+  <data name="Cli.Recommendation" xml:space="preserve"><value>Recommendation: {0} · Neural {1}% · Recipe {2} · Strength {3}</value></data>
+  <data name="Cli.Confidence" xml:space="preserve"><value>Confidence: {0}</value></data>
+  <data name="Cli.Diagnostics" xml:space="preserve"><value>Diagnostic revision {0} · DLDR {1} · Recovery {2}</value></data>
+  <data name="Cli.DiagnosticGates" xml:space="preserve"><value>GPU verified: {0} · Runtime verified: {1} · Host connected: {2} · Feature created: {3} · Presenter ready: {4} · Foreground preserved: {5}</value></data>
+  <data name="Cli.LastError" xml:space="preserve"><value>Last error: {0} · {1}</value></data>
+  <data name="Cli.Usage" xml:space="preserve"><value>Usage:</value></data>
+  <data name="Common.Yes" xml:space="preserve"><value>Yes</value></data>
+  <data name="Common.No" xml:space="preserve"><value>No</value></data>
+  <data name="Common.High" xml:space="preserve"><value>High</value></data>
+  <data name="Common.Medium" xml:space="preserve"><value>Medium</value></data>
+  <data name="Common.Low" xml:space="preserve"><value>Low</value></data>
+  <data name="State.RecoveryFailed" xml:space="preserve"><value>Recovery failed</value></data>
+  <data name="State.Normal" xml:space="preserve"><value>Normal</value></data>
+  <data name="Recommendation.Wait" xml:space="preserve"><value>Keep the current Neural scale until live performance measurements are available.</value></data>
+  <data name="Recommendation.Smooth" xml:space="preserve"><value>Reduce neural processing cost while keeping the final output resolution unchanged.</value></data>
+  <data name="Recommendation.Balanced" xml:space="preserve"><value>Reduce Neural input size to free GPU capacity. Final output resolution is unchanged.</value></data>
+  <data name="Recommendation.Quality" xml:space="preserve"><value>Measured GPU headroom is sufficient to keep full Neural resolution.</value></data>
+  <data name="Recommendation.NoData" xml:space="preserve"><value>No live GPU timing or throughput is available. Keep the current quality setting until actual frame data is collected.</value></data>
+  <data name="Recommendation.Reason" xml:space="preserve"><value>Target {0} × {1}, {2:F1} FPS ({3:F2} ms/frame). DLSS5 {4:F2} ms, GPU {5:F1}%, processing {6:F1} FPS.</value></data>
+  <data name="Control.InputOriginRejected" xml:space="preserve"><value>This input cannot control DLDR. The current state is unchanged.</value></data>
+  <data name="Mcp.ExpectedRevision" xml:space="preserve"><value>Optimistic concurrency revision from nera_get_status.</value></data>
+  <data name="Mcp.DisplayId" xml:space="preserve"><value>Opaque display identifier returned by nera_get_displays.</value></data>
+  <data name="Mcp.GetStatus" xml:space="preserve"><value>Return the current Nera state and revision.</value></data>
+  <data name="Mcp.GetDisplays" xml:space="preserve"><value>List connected displays available for monitor capture.</value></data>
+  <data name="Mcp.SetDisplay" xml:space="preserve"><value>Select one target display by its opaque ID.</value></data>
+  <data name="Mcp.Enable" xml:space="preserve"><value>Enable global DLDR only after display, HDR, RTX, runtime, capture, fresh-frame, presentation and foreground checks pass.</value></data>
+  <data name="Mcp.Disable" xml:space="preserve"><value>Restore normal Windows display output before reporting DLDR as off.</value></data>
+  <data name="Mcp.SetMode" xml:space="preserve"><value>Apply a Nera recipe to the single canonical parameter state.</value></data>
+  <data name="Mcp.SetStrength" xml:space="preserve"><value>Set DLDR effect strength from 0 to 100 without changing neural rendering intensity.</value></data>
+  <data name="Mcp.SetPerformance" xml:space="preserve"><value>Explicitly select the neural processing scale. Active processing safely falls back and recreates size-dependent resources before a fresh frame can resume output.</value></data>
+  <data name="Mcp.SetNr" xml:space="preserve"><value>Set the complete neural parameter bundle. While active, commit only after pipeline acknowledgement; the recipe becomes Custom. Auto Mask affects output but its exact semantics remain unconfirmed.</value></data>
+  <data name="Mcp.SetDldr" xml:space="preserve"><value>Set the complete HDR transfer parameter bundle. While active, commit only after pipeline acknowledgement; the recipe becomes Custom.</value></data>
+  <data name="Mcp.SetHud" xml:space="preserve"><value>Show or hide Nera performance monitoring.</value></data>
+  <data name="Mcp.GetPerformance" xml:space="preserve"><value>Return current measured performance data.</value></data>
+  <data name="Mcp.Recommend" xml:space="preserve"><value>Return display settings advice without applying it.</value></data>
+  <data name="Mcp.SelfTest" xml:space="preserve"><value>Start a bounded Nera self-test.</value></data>
+  <data name="Mcp.Diagnostics" xml:space="preserve"><value>Return privacy-filtered Nera diagnostics.</value></data>
+  <data name="Mcp.Emergency" xml:space="preserve"><value>Immediately request normal Windows output and stop only Nera-owned processing processes.</value></data>
+  <data name="Mcp.Title.nera_get_status" xml:space="preserve"><value>Get status</value></data>
+  <data name="Mcp.Title.nera_get_displays" xml:space="preserve"><value>List displays</value></data>
+  <data name="Mcp.Title.nera_set_display" xml:space="preserve"><value>Select display</value></data>
+  <data name="Mcp.Title.nera_enable_dldr" xml:space="preserve"><value>Enable DLDR</value></data>
+  <data name="Mcp.Title.nera_disable_dldr" xml:space="preserve"><value>Disable DLDR</value></data>
+  <data name="Mcp.Title.nera_set_mode" xml:space="preserve"><value>Set recipe</value></data>
+  <data name="Mcp.Title.nera_set_strength" xml:space="preserve"><value>Set DLDR strength</value></data>
+  <data name="Mcp.Title.nera_set_performance_mode" xml:space="preserve"><value>Set performance mode</value></data>
+  <data name="Mcp.Title.nera_set_nr_parameters" xml:space="preserve"><value>Set neural parameters</value></data>
+  <data name="Mcp.Title.nera_set_dldr_parameters" xml:space="preserve"><value>Set HDR transfer parameters</value></data>
+  <data name="Mcp.Title.nera_set_hud" xml:space="preserve"><value>Set performance HUD</value></data>
+  <data name="Mcp.Title.nera_get_performance" xml:space="preserve"><value>Get performance</value></data>
+  <data name="Mcp.Title.nera_recommend_settings" xml:space="preserve"><value>Recommend settings</value></data>
+  <data name="Mcp.Title.nera_run_self_test" xml:space="preserve"><value>Run self-test</value></data>
+  <data name="Mcp.Title.nera_get_diagnostics" xml:space="preserve"><value>Get diagnostics</value></data>
+  <data name="Mcp.Title.nera_emergency_stop" xml:space="preserve"><value>Emergency stop</value></data>
+  <data name="Mcp.ServerDescription" xml:space="preserve"><value>Bounded local Nera control bridge for the current user only.</value></data>
+  <data name="Mcp.Instructions" xml:space="preserve"><value>Nera controls one selected display. Read nera_get_status before mutations and supply expected_revision. Only committed dldrOn=true means DLDR is on. Use nera_emergency_stop for safe recovery.</value></data>
+  <data name="Mcp.Error.MessageLimit" xml:space="preserve"><value>MCP messages are limited to 1 MiB.</value></data>
+  <data name="Mcp.Error.JsonParse" xml:space="preserve"><value>Unable to parse JSON.</value></data>
+  <data name="Mcp.Error.RequestInvalid" xml:space="preserve"><value>Invalid JSON-RPC request.</value></data>
+  <data name="Mcp.Error.IdInvalid" xml:space="preserve"><value>Invalid JSON-RPC request ID.</value></data>
+  <data name="Mcp.Error.InitializedInvalid" xml:space="preserve"><value>Invalid initialization-complete notification.</value></data>
+  <data name="Mcp.Error.UnsupportedVersion" xml:space="preserve"><value>Unsupported MCP protocol version.</value></data>
+  <data name="Mcp.Error.MetadataRequired" xml:space="preserve"><value>Modern MCP requests require metadata.</value></data>
+  <data name="Mcp.Error.DiscoverMetadata" xml:space="preserve"><value>server/discover requires MCP 2026-07-28 metadata.</value></data>
+  <data name="Mcp.Error.MethodMissing" xml:space="preserve"><value>Method not found: {0}</value></data>
+  <data name="Mcp.Error.LegacyInvalid" xml:space="preserve"><value>Invalid or repeated legacy initialization request.</value></data>
+  <data name="Mcp.Error.DiscoverOnlyMeta" xml:space="preserve"><value>server/discover accepts only _meta.</value></data>
+  <data name="Mcp.Error.ListInvalid" xml:space="preserve"><value>Invalid tools/list arguments.</value></data>
+  <data name="Mcp.Error.CursorInvalid" xml:space="preserve"><value>The tools/list cursor is invalid or expired.</value></data>
+  <data name="Mcp.Error.CallInvalid" xml:space="preserve"><value>Invalid tools/call arguments.</value></data>
+  <data name="Mcp.Error.UnknownTool" xml:space="preserve"><value>Unknown tool: {0}</value></data>
+  <data name="Mcp.Error.ToolArgumentsInvalid" xml:space="preserve"><value>Invalid tool arguments.</value></data>
+  <data name="Mcp.Error.ParamsMetaRequired" xml:space="preserve"><value>Every MCP 2026-07-28 request must include params._meta.</value></data>
+  <data name="Mcp.Error.ProtocolMetaRequired" xml:space="preserve"><value>MCP protocolVersion metadata is required.</value></data>
+  <data name="Mcp.Error.CapabilitiesObject" xml:space="preserve"><value>MCP clientCapabilities metadata must be an object.</value></data>
+  <data name="Mcp.Error.InfoInvalid" xml:space="preserve"><value>Invalid MCP clientInfo metadata.</value></data>
+  <data name="ControlWindow.Quit" xml:space="preserve"><value>Quit Nera</value></data>
+  <data name="ControlWindow.CloseHelp" xml:space="preserve"><value>While DLDR is active, closing this window minimizes Nera and keeps processing. Quit Nera restores the normal display and exits.</value></data>
+  <data name="Tutorial.Replay" xml:space="preserve"><value>View the tutorial again</value></data>
+  <data name="Tutorial.ReplayHelp" xml:space="preserve"><value>The tutorial returns DLDR to OFF. It does not change your picture settings.</value></data>
+  <data name="Tutorial.Title1" xml:space="preserve"><value>Welcome to Nera</value></data>
+  <data name="Tutorial.Title2" xml:space="preserve"><value>Before you begin</value></data>
+  <data name="Tutorial.Title3" xml:space="preserve"><value>One display mode, all your content</value></data>
+  <data name="Tutorial.Title4" xml:space="preserve"><value>Your keyboard shortcuts</value></data>
+  <data name="Tutorial.Title5" xml:space="preserve"><value>A starting point for your settings</value></data>
+  <data name="Tutorial.Intro" xml:space="preserve"><value>Nera adds an experimental DLDR display mode to Windows.&#10;&#10;Turn on DLDR, then continue using Windows normally. DLSS5 neural rendering and DLDR preserve an HDR display pipeline.&#10;&#10;Nera does not modify app or game files, the graphics driver, or the NVIDIA runtime file on disk. Experimental compatibility runs inside Nera’s isolated host.</value></data>
+  <data name="Tutorial.Checks" xml:space="preserve"><value>Display: {0}&#10;&#10;Windows HDR: {1}&#10;Compatible NVIDIA GPU: {2}&#10;DLSS5 runtime: {3}&#10;&#10;Turn on Windows HDR yourself if needed. Import a runtime you legally obtained; Nera never downloads or alters it.</value></data>
+  <data name="Tutorial.NotReady" xml:space="preserve"><value>Not yet verified</value></data>
+  <data name="Tutorial.Verified" xml:space="preserve"><value>Verified</value></data>
+  <data name="Tutorial.Use" xml:space="preserve"><value>1. Click DLDR.&#10;2. Wait for DLDR ON in the center of the screen.&#10;3. Use pictures, video, the desktop, or games normally.&#10;4. Click DLDR again, or use your shortcut, to turn it off.&#10;&#10;Reopen Nera from the taskbar or your shortcut to adjust the picture without turning DLDR off.</value></data>
+  <data name="Tutorial.EmergencyFallback" xml:space="preserve"><value>Ctrl + Alt + Backspace is always reserved as the emergency-stop fallback. Check its actual registration below.</value></data>
+  <data name="Tutorial.FallbackStatus" xml:space="preserve"><value>Registered fallback: {0}</value></data>
+  <data name="Tutorial.Measured" xml:space="preserve"><value>Available local sample: DLSS5 processing averaged {0:F2} ms. This is not a full stability benchmark.</value></data>
+  <data name="Tutorial.NotMeasured" xml:space="preserve"><value>No local quick-test result is available yet. The options below are starting suggestions, not verified performance results.</value></data>
+  <data name="Tutorial.DisplaySummary" xml:space="preserve"><value>Current display: {0} × {1} · {2:F1} Hz</value></data>
+  <data name="Tutorial.Recommendations" xml:space="preserve"><value>4K at 60 FPS: consider Balanced (90%).&#10;GPU-heavy games: try Smooth (80%).&#10;Still pictures or lower-frame-rate content: try Quality (100%).&#10;&#10;Final output always stays at the selected display resolution.</value></data>
+  <data name="Tutorial.RecommendationBoundary" xml:space="preserve"><value>Recommendations use only available local quick-test evidence. They do not guarantee performance and are never applied automatically. You can adjust them at any time. DLDR remains OFF when you finish.</value></data>
+  <data name="Tutorial.Step" xml:space="preserve"><value>Step {0} of {1}</value></data>
+  <data name="Tutorial.Next" xml:space="preserve"><value>Next</value></data>
+  <data name="Tutorial.Finish" xml:space="preserve"><value>Finish</value></data>
+  <data name="Tutorial.Skip" xml:space="preserve"><value>Skip tutorial</value></data>
+  <data name="Tutorial.OffUnconfirmed" xml:space="preserve"><value>The original display is not confirmed yet. Use emergency stop before reopening the tutorial.</value></data>
+  <data name="Tutorial.Unavailable" xml:space="preserve"><value>The tutorial could not be saved or opened. You can open it again in Settings.</value></data>
+  <data name="Control.ObservationInterrupted" xml:space="preserve"><value>DLDR stopped because status monitoring failed. The original display is restored.</value></data>
+  <data name="Control.ObservationUnconfirmed" xml:space="preserve"><value>DLDR stopped. Checking that the original display is restored.</value></data>
+  <data name="ControlWindow.Show" xml:space="preserve"><value>Show Nera</value></data>
+</root>
