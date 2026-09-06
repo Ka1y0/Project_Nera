@@ -23,6 +23,10 @@ $packageMetadataNames = @('SOURCE_MANIFEST.json', 'SBOM.spdx.json')
 $utf8 = [Text.UTF8Encoding]::new($false, $true)
 $maxBytes = [Math]::Max(1024, $MaximumTextBytes)
 
+# Publication-reviewed real product screenshot. This is not a general image exemption.
+$reviewedImagePath = 'docs/media/nera-main-ui-en.png'
+$reviewedImageSha256 = 'b4d72bb29bbf43b6645822e3f397d1aa9859c37ea30e2b201b8d8f231420a899'
+
 function Add-BoundaryIssue([string]$Code, [string]$Path, [int]$Line = 0) {
     # Never include the matched content, exception message or raw git stderr.
     $safePath = [regex]::Replace($Path, '[\x00-\x1f\x7f]', '?')
@@ -55,6 +59,7 @@ function Test-BoundaryName([string]$Path, [string]$Label) {
     $bad = $extension -in $forbiddenExtensions -or $leaf -in $forbiddenNames -or
         @($segments | Where-Object { $_ -in $forbiddenDirectoryNames }).Count -gt 0
     if (-not $bad -and $extension -notin $allowedExtensions -and $leaf -notin $allowedNames) { $bad = $true }
+    if ($normalized -ceq $reviewedImagePath) { $bad = $false }
     if ($bad) { ++$counts.forbiddenFiles; Add-BoundaryIssue 'FORBIDDEN_SOURCE_TREE_FILE' $Label }
     foreach ($pattern in $credentialPatterns) {
         foreach ($match in [regex]::Matches($Path, $pattern)) {
@@ -95,6 +100,13 @@ $codeExtensions = @('.cs', '.cpp', '.c', '.h', '.hpp', '.ps1', '.csproj', '.prop
 
 function Test-BoundaryBytes([byte[]]$Bytes, [string]$Path, [string]$Label) {
     if ($Bytes.Length -gt $maxBytes) { Add-BoundaryIssue 'OVERSIZED_SOURCE_REQUIRES_REVIEW' $Label; return }
+    if ($Path.Replace('\', '/') -ceq $reviewedImagePath) {
+        $hash = [Convert]::ToHexString([Security.Cryptography.SHA256]::HashData($Bytes)).ToLowerInvariant()
+        if ($hash -cne $reviewedImageSha256) {
+            ++$counts.binaryContentMatches; Add-BoundaryIssue 'UNREVIEWED_DOCUMENTATION_IMAGE' $Label
+        }
+        return
+    }
     if ($Bytes -contains 0 -or
         ($Bytes.Length -ge 2 -and $Bytes[0] -eq 0x4d -and $Bytes[1] -eq 0x5a) -or
         ($Bytes.Length -ge 4 -and $Bytes[0] -eq 0x50 -and $Bytes[1] -eq 0x4b -and $Bytes[2] -eq 3 -and $Bytes[3] -eq 4) -or
@@ -177,7 +189,7 @@ function Test-GeneratedPackage($Manifest, $Expected) {
             $bytes = 0L
             if (-not [long]::TryParse([string]$record.bytes, [ref]$bytes) -or $bytes -lt 0 -or
                 $record.sha256 -isnot [string] -or $record.sha256 -cnotmatch '^[a-f0-9]{64}$' -or
-                $record.classification -cne 'REVIEWED_SOURCE_TEXT') {
+                $record.classification -cne $(if ($record.path -ceq $reviewedImagePath) { 'REVIEWED_PRODUCT_SCREENSHOT' } else { 'REVIEWED_SOURCE_TEXT' })) {
                 Add-ManifestIssue 'INVALID_PACKAGE_SOURCE_RECORD' $record.path; continue
             }
             if (-not $workingPaths.Contains($record.path)) {

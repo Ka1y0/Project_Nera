@@ -1,8 +1,9 @@
 # Source provenance and exclusions
 
 This is a new source-preview history, not a mirror of an internal development repository.
-Only reviewed text files were selected. No original Git objects, local configuration,
-Runtime, screenshots, logs, benchmark data, game settings or user files were imported.
+The initial release selected reviewed text files. No original Git objects, local configuration,
+Runtime, logs, benchmark data, game settings or user files were imported.
+The later README showcase adds one explicitly authorized real product screenshot as described below.
 
 | Public area | Origin and publication scope |
 |---|---|
@@ -30,8 +31,25 @@ archive as a whole.
 ## Not included
 
 WinUI GUI, monitor capture, HDR Presenter, RuntimeBroker, operational Host, private ABI,
-IAT/caller compatibility, third-party SDKs and derived adapters, InputLab/InputTrace, images,
+IAT/caller compatibility, third-party SDKs and derived adapters, InputLab/InputTrace, user images,
 fonts and product binaries. Resources naming a feature do not ship that feature.
+
+## Documentation screenshot
+
+`docs/media/nera-main-ui-en.png` was captured from the real current internal Nera Home UI
+in English, with DLDR OFF. The owner authorized a temporary OFF-only diagnostic to lift
+main-window capture exclusion. It changed no controls, visual parameters or layout code;
+normal Windows window sizing was used. Original application files were restored after capture.
+
+The image was reviewed for private content and re-encoded as PNG without source metadata.
+It contains no user files, account details, private paths or personal photographs. It is not
+generated, a mockup, a before/after comparison or evidence that this source preview includes
+the pictured application. Screenshot publication is owner-authorized. No font binaries are
+distributed, and no license to third-party marks or Windows UI assets is implied. SPDX records
+the image separately as IMAGE / NOASSERTION rather than asserting a source-code license for it.
+
+The boundary scanner pins its exact path and SHA-256. A replacement image requires fresh
+privacy/publication review and a deliberate hash update. Other images remain disallowed.
 
 ## Required review for future additions
 

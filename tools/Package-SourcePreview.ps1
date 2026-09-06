@@ -45,13 +45,16 @@ foreach ($relative in $allowlist.files | Sort-Object -CaseSensitive) {
     $sha256 = (Get-FileHash -LiteralPath $entry.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
     $sha1 = (Get-FileHash -LiteralPath $entry.FullName -Algorithm SHA1).Hash.ToLowerInvariant()
     $sha1List.Add($sha1)
-    $sourceFiles.Add([ordered]@{path=$relative;bytes=$entry.Length;sha256=$sha256;classification='REVIEWED_SOURCE_TEXT'})
+    $isScreenshot = $relative -ceq 'docs/media/nera-main-ui-en.png'
+    $classification = if ($isScreenshot) { 'REVIEWED_PRODUCT_SCREENSHOT' } else { 'REVIEWED_SOURCE_TEXT' }
+    $fileLicense = if ($isScreenshot) { 'NOASSERTION' } else { 'MIT' }
+    $sourceFiles.Add([ordered]@{path=$relative;bytes=$entry.Length;sha256=$sha256;classification=$classification})
     $fileIndex++
     $spdxId = 'SPDXRef-File-' + $fileIndex.ToString('D4')
     $spdxFiles.Add([ordered]@{
-        SPDXID=$spdxId;fileName='./'+$relative;fileTypes=@('TEXT')
+        SPDXID=$spdxId;fileName='./'+$relative;fileTypes=@($(if ($isScreenshot) { 'IMAGE' } else { 'TEXT' }))
         checksums=@([ordered]@{algorithm='SHA256';checksumValue=$sha256},[ordered]@{algorithm='SHA1';checksumValue=$sha1})
-        licenseConcluded='MIT';licenseInfoInFiles=@('MIT');copyrightText='NOASSERTION'
+        licenseConcluded=$fileLicense;licenseInfoInFiles=@($fileLicense);copyrightText='NOASSERTION'
     })
     $relationships.Add([ordered]@{spdxElementId='SPDXRef-NeraSource';relationshipType='CONTAINS';relatedSpdxElement=$spdxId})
 }

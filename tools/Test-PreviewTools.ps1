@@ -128,6 +128,26 @@ try {
     $audit = Run-Audit 'Test-SourceBoundary.ps1' $binaryRoot
     Check (Has-Code $audit 'FORBIDDEN_SOURCE_TREE_FILE') 'image extension rejected'
 
+    $imageRoot = New-Fixture 'reviewed-image'
+    $imageRelative = 'docs/media/nera-main-ui-en.png'
+    $imagePath = Join-Path $imageRoot $imageRelative
+    New-Item -ItemType Directory -Path (Split-Path -Parent $imagePath) -Force | Out-Null
+    $imageBytes = [IO.File]::ReadAllBytes((Join-Path $source $imageRelative))
+    [IO.File]::WriteAllBytes($imagePath, $imageBytes)
+    $audit = Run-Audit 'Test-SourceBoundary.ps1' $imageRoot
+    Check ($audit.ExitCode -eq 0) 'reviewed image exact path and bytes pass'
+    $imageBytes[$imageBytes.Length - 1] = $imageBytes[$imageBytes.Length - 1] -bxor 1
+    [IO.File]::WriteAllBytes($imagePath, $imageBytes)
+    $audit = Run-Audit 'Test-SourceBoundary.ps1' $imageRoot
+    Check (Has-Code $audit 'UNREVIEWED_DOCUMENTATION_IMAGE') 'changed image bytes require fresh review'
+    [IO.File]::WriteAllBytes($imagePath, [byte[]](0x4d, 0x5a, 0, 1))
+    $audit = Run-Audit 'Test-SourceBoundary.ps1' $imageRoot
+    Check (Has-Code $audit 'UNREVIEWED_DOCUMENTATION_IMAGE') 'executable cannot use approved image path'
+    $renamedImageRoot = New-Fixture 'renamed-reviewed-image'
+    Copy-Item -LiteralPath (Join-Path $source $imageRelative) -Destination (Join-Path $renamedImageRoot 'other.png')
+    $audit = Run-Audit 'Test-SourceBoundary.ps1' $renamedImageRoot
+    Check (Has-Code $audit 'FORBIDDEN_SOURCE_TREE_FILE') 'reviewed image under another path rejected'
+
     $adapterRoot = New-Fixture 'private-adapter'
     Write-Fixture $adapterRoot 'src/Unsafe.cpp' (('NVSDK' + '_NGX_') + 'PrivateEntry();')
     $audit = Run-Audit 'Test-SourceBoundary.ps1' $adapterRoot

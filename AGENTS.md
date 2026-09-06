@@ -98,5 +98,8 @@ before a commit is tagged. Source SPDX is not a binary SBOM.
 
 Use an explicit reviewed path list for Git staging. Never stage the internal repository or
 its history, use an unauthorized or blind force-push, overwrite an unrelated remote, or include generated binaries.
+The sole documentation screenshot at `docs/media/nera-main-ui-en.png` is explicitly
+publication-reviewed and SHA-256-pinned. Never broaden this into a generic image exemption.
+Any replacement requires fresh privacy review. Keep its internal-product/source-preview caption.
 Build, package and logs go outside this source tree. Product release authorization and
 credentials must not be inferred from an existing connector or a tests-only PASS.

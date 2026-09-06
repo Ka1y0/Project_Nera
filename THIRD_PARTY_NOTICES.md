@@ -21,9 +21,14 @@ Protocol conformance does not imply endorsement by the protocol authors.
 ## Explicitly excluded
 
 No NVIDIA Runtime, NGX/Streamline library or header, third-party Feature18 adapter,
-SAOG-derived private adapter, Magpie/RenoDX/Feeder source, fonts, icon images, screenshots,
+SAOG-derived private adapter, Magpie/RenoDX/Feeder source, fonts, icon images,
 or user media is shipped here. References to unavailable capabilities in types or translated
 messages are not executable implementations of those capabilities.
+
+The sole documentation PNG shows the actual internal Nera UI. Publication is owner-authorized;
+it includes rendered system UI but no font binaries. It does not grant rights to third-party
+marks. Its SPDX record uses IMAGE / NOASSERTION, distinct from MIT source-code records.
+See the capture and privacy boundary in [PROVENANCE.md](PROVENANCE.md).
 
 The excluded operational adapter has separate, unresolved authorization and distribution
 questions. Neither this MIT license nor user-imported Runtime files resolve those questions.
